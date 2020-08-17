@@ -1,4 +1,6 @@
 ## Contact Information
+[<img src="./images/linkedin.png" width="250"/>](./images/linkedin.png)
+
 ![Image](./images/linkedin.png){ width=50% } 
 
 [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) 

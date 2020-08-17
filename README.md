@@ -1,9 +1,5 @@
 ## Contact Information
-[<img src="./images/linkedin.png" width="25"/>](./images/linkedin.png)
-
-![Image](./images/linkedin.png){ width=50% } 
-
-[shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) 
+[<img src="./images/linkedin.png" width="25"/>](./images/linkedin.png) [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) [<img src="./images/email.png" width="25"/>](./images/email.png) [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) [<img src="./images/phone.png" width="25"/>](./images/phone.png) +1 (519) 781-5497 
 
 ## Welcome to GitHub Pages
 

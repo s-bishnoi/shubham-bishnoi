@@ -1,5 +1,7 @@
 ## Contact Information
-![Image](./images/linkedin.png){ width=50% } [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) 
+![Image](./images/linkedin.png){ width=50% } 
+
+[shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) 
 
 ## Welcome to GitHub Pages
 

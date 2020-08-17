@@ -1,16 +1,14 @@
-## About me
+# About me
 
 ## Education
 
-## Statistical Skills
+## Skills
 
 | Statistical Skills | Technical Skills |
 |       :---:        |       :---:      | 
 | A/B Testing        | Python           |
 | Prediction         | R                |
 | Hypotesis Testing  | SQL              |
-
-## Technical Skills
 
 ## Work Experience
 
@@ -21,3 +19,12 @@
 
 [<img src="./images/phone.png" width="25"/>](./images/phone.png) +1 (519) 781-5497 
 
+ .grid {
+  display: flex;
+ }
+.col-1-2 {
+  flex: 1;
+}
+.cole-1-2:last-child {
+  margin-left: 20px;
+}

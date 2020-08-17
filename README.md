@@ -1,5 +1,5 @@
 ## Contact Information
-[<img src="./images/linkedin.png" width="250"/>](./images/linkedin.png)
+[<img src="./images/linkedin.png" width="2.5"/>](./images/linkedin.png)
 
 ![Image](./images/linkedin.png){ width=50% } 
 

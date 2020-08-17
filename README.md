@@ -19,6 +19,5 @@
 
 [<img src="./images/phone.png" width="25"/>](./images/phone.png) +1 (519) 781-5497 
 
-| Data Scientist | Data Analyst |
-| :--- | :--- | 
-| - Worked in collaboration with Data Science, Data Engineering and Product teams on JIRA tickets by finding and fixing bugs in pipelines to get the Pinpoint Engineering Performance Management product ready for launch | - Worked with the engineering team for FortisBC (Natural Gas Company) on Risk-Based Optimized Infrastructure Assessment of 25 pipelines based on individual and societal risk of pipeline rupture |
+| Data Scientist
+- Worked in collaboration with Data Science, Data Engineering and Product teams on JIRA tickets by finding and fixing bugs in pipelines to get the Pinpoint Engineering Performance Management product ready for launch | Data Analyst |

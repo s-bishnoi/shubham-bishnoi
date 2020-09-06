@@ -2,6 +2,14 @@
 
 ## Education
 
+University of Waterloo - August 2020
+
+Statistics, Honours,
+
+Co-operative Program,
+
+Computer Science Minor
+
 ## Skills
 
 | Statistical Skills | Technical Skills |
@@ -31,3 +39,5 @@
 - Worked with the engineering team for FortisBC (Natural Gas Company) on Risk-Based Optimized Infrastructure Assessment of 25 pipelines based on individual and societal risk of pipeline rupture
 - Created a database from scratch for In-Line Inspection and uploaded all the data from FortisBC using SQL to a database for the company's future use and additionally gathered missing data from different platforms
 - Analyzed the data to identify the various errors that disrupted work flow of the Python code, possibly caused from company's back end or in uploading the data
+
+Link to the site: [https://s-bishnoi.github.io/shubham-bishnoi/](https://s-bishnoi.github.io/shubham-bishnoi/)

@@ -1,5 +1,7 @@
 # About me
 
+Hello, My name is Shubham Bishnoi. I just completed my Statistics degree from Univeristy of Waterloo. Few things that interests me are data visualization, A/B testing and working with databases. I am always looking for new challenges in my life. I look for respectful and creative work environment and team. I aspire to teach data science in future.
+
 | Education |
 | :---: |
 | University of Waterloo, **Statistics**, Honours, Co-operative Program, **Computer Science** Minor, Class of 2020 |
@@ -26,4 +28,4 @@
 | Austin, Texas | Aurora, Ontario |  Etobicoke, Ontario | Missisauga, Ontario | Hamilton, Ontario | Univeristy of Waterloo, Ontario |
 | Sep,2019 - Mar,2020 | Jan,2019 - Apr,2019 |  May,2018 - Aug,2018 | Sep,2017 - Dec,2017 | Jan,2017 - Apr,2017 | Apr,2017 - Aug,2020 |
 
-Link to the site: [https://s-bishnoi.github.io/shubham-bishnoi/](https://s-bishnoi.github.io/shubham-bishnoi/)
+Here is my resume: [Resume](./stuff/resume.pdf)

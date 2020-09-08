@@ -24,6 +24,6 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | Pinpoint | JANA Corporation |  Humber College | Bronte College | Mohawk College | Desk Services |
 | Austin, Texas | Aurora, Ontario |  Etobicoke, Ontario | Missisauga, Ontario | Hamilton, Ontario | Waterloo, Ontario |
-| 09/19 - 03/20 | 01/19 - 04/19 |  05/18 - 08/18 | 09/17 - 12/17 | 01/17 - 04/17 | 04/17 - 09/20 |
+| 09/19 - 03/20 | 01/19 - 04/19 |  05/18 - 08/18 | 09/17 - 12/17 | 01/17 -    04/17 | 04/17 - 09/20 |
 
 Here is my resume: [Resume](./stuff/resume.pdf)

@@ -18,7 +18,7 @@ The optimum value turns out to be
 
 The objective of this phase of the experiment is to figure out if any of the factors Tile.Size, Prev.Size, and Prev.Length are significantly important for *Average Browsing Time* response. The 2^K = 2^3 factorial experiment was used instead of a $2^{3-1}$ because the design generator AB = C leads to defining relation of I = ABC with resolution III. In resolution III, every main effect would have been confounded with a two-factor interaction. It is difficult to differentiate the significance achieved through main effects or the interactions in the linear model in lower resolution.
 
-```
+```json
 ## Load helpful packages and functions
 library(plot3D) # needed for the mesh() function
 library(gplots)
@@ -41,5 +41,4 @@ ph0 <- data.frame(y = netflix.ph1$Browse.Time,
                   x1 = convert.N.to.C(U = netflix.ph1$Prev.Length, UH = 90, UL = 30),
                   x2 = convert.N.to.C(U = netflix.ph1$Prev.Size, UH = 0.5, UL = 0.3),
                   x3 = convert.N.to.C(U = netflix.ph1$Tile.Size, UH = 0.3, UL = 0.1))
-
 ```

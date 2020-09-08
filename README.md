@@ -12,7 +12,7 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 
 | Name | Description | Skills | Link |
 | :---: | :---: | :---: | :---: |
-| **Experimental Design** | The project is on experimenting with different features of the online streaming service to reduce the average browsing time. Website generates revenue when users stream something online by minimal browsing. Due to so many options, users often get overwhelmed and end up watching nothing. Therefore, the purpose of this experiment is to find the combination of optimum values of preview length, preview size and tile size to minimize the average browsing time, thereby resulting in quicker user selection. |  *A/B Testing, Hypotesis testing, R* | [Experimental Design](./projects/ExperimentalDesign/) |
+| **Experimental Design** | The project is on experimenting with different features of the online streaming service to reduce the average browsing time. |  *A/B Testing, Hypotesis testing, R* | [Experimental Design](./projects/ExperimentalDesign/) |
 | **Database Design** | This project is on creating a databse that could be used by people to do basic and advanced SQL queries. The databse is in 3rd Normal form and created all manually. |  *SQL* | [Database Design](./projects/DatabaseDesign/) |
 | **Prediction Model** | This project is on creating a prediction model for happiness of people based on attributes given. The achieved accuracy was 80.63%. |  *Prediction* | [Prediction Model](./projects/PredictionClassificationModel/) |
 | **Data Visualization** | Running Bar Graph of top 10 countries that have most number of Covid-19 cases |  *Python, Big Data* | [Data Visualization](./projects/DataVisualization/) |

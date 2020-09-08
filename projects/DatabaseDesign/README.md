@@ -2,7 +2,7 @@
 
 # Database Design
 
-[ Database ] (https://s-bishnoi.github.io/shubham-bishnoi/projects/DatabaseDesign/ResidenceDatabase.db)
+[ Database ] (https://github.com/s-bishnoi/shubham-bishnoi/projects/DatabaseDesign/ResidenceDatabase.db)
  
 ## Overview
 
@@ -83,7 +83,7 @@ The database created is in 3rd Normal Form. We will start with the 1st Normal fo
 
 R = (ID, FirstName, LastName, Gender, QuadID, UnitNumber, AcademicYear, Emergency Contact)
 
-All the values are atomic by design -> 1st NF
+All the values are atomic by design, thereofore it's in 1st Normal Form.
 
 Candidate keys: ID, (FirstName, LastName)
 
@@ -92,14 +92,20 @@ Candidate keys: ID, (FirstName, LastName)
 Functional Dependencies:
 
 ID -> FirstName
+
 ID -> LastName
+
 ID -> Gender
+
 ID -> QuadID
+
 ID -> UnitNumber
+
 ID -> AcademicYear
+
 ID -> Emergency Contact
 
-There are no transitive dependencies, thereofore it;s in 3rd Normal Form.
+There are no transitive dependencies, therefore it;s in 3rd Normal Form.
 
 ## References
 

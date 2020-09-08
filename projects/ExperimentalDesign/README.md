@@ -75,4 +75,4 @@ model_red <- lm(y ~ x1 + x2 + x1:x2, data = ph0)
 anova(model_red,model)
 ```
 
-[<img src="./p11.png" width="500"/>](./p12.png)
+[<img src="./p12.png" width="500"/>](./p12.png)

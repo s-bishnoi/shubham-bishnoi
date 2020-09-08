@@ -1,10 +1,6 @@
 # About me
 
-Hello, My name is Shubham Bishnoi. I just completed my Statistics degree from Univeristy of Waterloo. Few things that interests me are data visualization, A/B testing and working with databases. I am always looking for new challenges in my life. I look for respectful and creative work environment and team. I aspire to teach data science in future.
-
-| Education |
-| :---: |
-| University of Waterloo, **Statistics**, Honours, Co-operative Program, **Computer Science** Minor, Class of 2020 |
+Hello, My name is Shubham Bishnoi. I just completed my Statistics Honours degree with Computer Science minor from Univeristy of Waterloo. Few things that interests me are data visualization, A/B testing and working with databases. I am always looking for new challenges in my life. I look for respectful and creative work environment and team. I aspire to teach data science in future.
 
 # Contact Information
 

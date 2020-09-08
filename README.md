@@ -14,10 +14,10 @@ Hello, My name is Shubham Bishnoi. I just completed my Statistics degree from Un
 
 | Name | Description | Skills | Link |
 | :---: | :---: | :---: | :---: |
-| **Experimental Design** | abc |  *A/B Testing, Hypotesis testing, R* | abc |
-| **Database Design** | abc |  *SQL* | abc |
-| **Prediction** | abc |  *Prediction* | abc |
-| **Data Visualization** | abc |  *Python, Big Data* | abc |
+| **Experimental Design** | abc |  *A/B Testing, Hypotesis testing, R* | [Experimental Design](./projects/ExperimentalDesign/) |
+| **Database Design** | abc |  *SQL* | [Database Design](./projects/DatabaseDesign/) |
+| **Prediction Model** | abc |  *Prediction* | [Prediction Model](./projects/PredictionClassificationModel/) |
+| **Data Visualization** | abc |  *Python, Big Data* | [Data Visualization](./projects/DataVisualization/) |
 
 
 # Work Experience

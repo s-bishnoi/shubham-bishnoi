@@ -2,7 +2,7 @@
 
 # Database Design
 
-[ Database ] (https://github.com/s-bishnoi/shubham-bishnoi/projects/DatabaseDesign/ResidenceDatabase.db)
+https://github.com/s-bishnoi/shubham-bishnoi/projects/DatabaseDesign/ResidenceDatabase.db
  
 ## Overview
 
@@ -105,7 +105,7 @@ ID -> AcademicYear
 
 ID -> Emergency Contact
 
-There are no transitive dependencies, therefore it;s in 3rd Normal Form.
+There are no transitive dependencies, therefore it's in 3rd Normal Form.
 
 ## References
 

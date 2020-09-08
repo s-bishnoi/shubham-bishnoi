@@ -12,10 +12,10 @@
 
 | Name | Description | Skills | Link |
 | :---: | :---: | :---: | :---: |
-| Experimental Design | abc |  A/B Testing, Hypotesis testing, R | abc |
-| Database Design | abc |  SQL | abc |
-| Prediction | abc |  Prediction | abc |
-| Data Visualization | abc |  Python, Big Data | abc |
+| **Experimental Design** | abc |  *A/B Testing, Hypotesis testing, R* | abc |
+| **Database Design** | abc |  *SQL* | abc |
+| **Prediction** | abc |  *Prediction* | abc |
+| **Data Visualization** | abc |  *Python, Big Data* | abc |
 
 
 # Work Experience

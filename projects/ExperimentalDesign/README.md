@@ -42,7 +42,7 @@ convert.C.to.N <- function(x,UH,UL){
 The objective of this phase of the experiment is to figure out if any of the factors Tile.Size, Prev.Size, and Prev.Length are significantly important for *Average Browsing Time* response. The 2^K = 2^3 factorial experiment was used because 2^(3-1) will lead to resolution III. In resolution III, every main effect would have been confounded with a two-factor interaction. It is difficult to differentiate the significance achieved through main effects or the interactions in the linear model in lower resolution.
 
 ```
-netflix.ph1 <- read.csv(file = "./RESULTS_20636835_2020-08-08_factor_screen.csv", header = T)
+netflix.ph1 <- read.csv(file = "./factor_screening.csv", header = T)
 
 ph0 <- data.frame(y = netflix.ph1$Browse.Time,
                   x1 = convert.N.to.C(U = netflix.ph1$Prev.Length, UH = 90, UL = 30),
@@ -62,3 +62,17 @@ axis(side = 1, at = c(1,2), labels = c("30", "90"))
 ```
 
 [<img src="./p11.png" width="900"/>](./p11.png)
+
+The plots of preview size and preview length shows that the average browsing time decreases as we go from their respective lows to highs. On the other hand, in the plot for title size, we can see that going from 0.1 to 0.3 doesn't much effect the average browsing time. This leads us to believe that the title size might be insignificant. 
+
+```
+## Fit a full model with all main effects and interaction terms
+model <- lm(y ~ x1 * x2 * x3, data = ph0)
+
+## Fit a reduced model with just the main effects and interactions that appear to be significant
+model_red <- lm(y ~ x1 + x2 + x1:x2, data = ph0)
+
+anova(model_red,model)
+```
+
+[<img src="./p11.png" width="500"/>](./p12.png)

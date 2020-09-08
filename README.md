@@ -1,12 +1,12 @@
 # About me
 
-[<img src="./images/photo.png" width="150"/>](./images/photo.png) 
+[<img src="./stuff/photo.png" width="150"/>](./stuff/photo.png) 
 
 Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree with a Computer Science minor from University of Waterloo. Few things that interest me are data visualization, A/B testing and working with databases. I am looking for a respectful and creative work environment and team that challenge me to learn new things. I aspire to teach Data Science and Ethics in the future. 
 
 # Contact Information
 
-| [Resume](./stuff/resume.pdf) | [<img src="./images/linkedin.png" width="25"/>](./images/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | [<img src="./images/email.png" width="25"/>](./images/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) | [<img src="./images/phone.png" width="25"/>](./images/phone.png) | 519-781-5497 |
+| [Resume](./stuff/resume.pdf) | [<img src="./stuff/linkedin.png" width="25"/>](./stuff/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | [<img src="./stuff/email.png" width="25"/>](./stuff/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) | [<img src="./stuff/phone.png" width="25"/>](./stuff/phone.png) | 519-781-5497 |
 
 # Projects
 

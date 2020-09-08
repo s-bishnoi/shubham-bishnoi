@@ -6,18 +6,6 @@
 | University of Waterloo, Statistics, Honours, Co-operative Program, Computer Science Minor, Class of 2020 |
 
 
-## Contact Information
-[<img src="./images/linkedin.png" width="25"/>](./images/linkedin.png) [www.linkedin.com/in/shubhambishnoi/](https://www.linkedin.com/in/shubhambishnoi/) 
-
-[<img src="./images/email.png" width="25"/>](./images/email.png) [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) 
-
-[<img src="./images/phone.png" width="25"/>](./images/phone.png) +1 (519) 781-5497 
-
-| Contact | Information |
-| :---: | :---: |
-| [<img src="./images/linkedin.png" width="25"/>](./images/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) |
-| [<img src="./images/email.png" width="25"/>](./images/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) |
-| [<img src="./images/phone.png" width="25"/>](./images/phone.png) | +1 (519) 781-5497 |
 
 
 ## Work Experience
@@ -36,5 +24,15 @@
 | Prediction         | R                |
 | Hypotesis Testing  | SQL              |
 
+## Contact me
+
+|  | Information |
+| :---: | :---: |
+| [<img src="./images/linkedin.png" width="25"/>](./images/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) |
+| [<img src="./images/email.png" width="25"/>](./images/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) |
+| [<img src="./images/phone.png" width="25"/>](./images/phone.png) | +1 (519) 781-5497 |
+
+|  | Information |
+| :---: | :---: |
 
 Link to the site: [https://s-bishnoi.github.io/shubham-bishnoi/](https://s-bishnoi.github.io/shubham-bishnoi/)

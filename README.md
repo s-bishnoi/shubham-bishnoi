@@ -20,7 +20,7 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 
 # Work Experience
 
-| Data Scientist | Data Analyst | Math Tutor | Teacher Intern | Math Resource Assistant | Front Desk Assistant |
+| Data Scientist Intern | Data Analyst | Math Tutor | Teacher Intern | Math Resource Assistant | Front Desk Assistant |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | Pinpoint | JANA Corporation |  Humber College | Bronte College | Mohawk College | Desk Services |
 | Austin, Texas | Aurora, Ontario |  Etobicoke, Ontario | Missisauga, Ontario | Hamilton, Ontario | Waterloo, Ontario |

@@ -2,7 +2,7 @@
 
 # Database Design
 
-[ Database ] (projects/DatabaseDesign/ResidenceDatabase.db)
+[ Database ] (https://s-bishnoi.github.io/shubham-bishnoi/projects/DatabaseDesign/ResidenceDatabase.db)
  
 ## Overview
 

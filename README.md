@@ -20,20 +20,15 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 
 # Work Experience
 
-| Data Scientist Intern | Data Analyst | Math Tutor | Teacher Intern | Math Resource Assistant | Front Desk Assistant |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| Pinpoint | JANA Corporation |  Humber College | Bronte College | Mohawk College | Desk Services |
-| Austin, Texas | Aurora, Ontario |  Etobicoke, Ontario | Missisauga, Ontario | Hamilton, Ontario | Waterloo, Ontario |
-| Sep,2019 | Jan,2019|  May,2018 | Sep,2017 | Jan,2017 | May,2017 |
-| 7 months | 4 months |  4 months | 4 months | 4 months | 2 years |
+| Title | Company | Location | Start | Duration |
+| :---: | :---: | :---: | :---: | :---: |
+| **Data Scientist** | *Pinpoint* |  Austin, Texas | Sep,2019 | 7 months |
+| **Data Analyst** | *JANA Corporation* |  Aurora, Ontario | Jan,2019 | 4 months |
+| **Math Tutor** | *Humber College* |  Etobicoke, Ontario | Sep,2017 | 4 months |
+| **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,2017 | 4 months |
+| **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,2017 | 4 months |
+| **Front Desk Assistant** | *Desk Services* | Waterloo, Ontario | May,2017 | 2 years |
 
 Here is my resume: [Resume](./stuff/resume.pdf)
 
-| Title | Company | Location | Start | Duration |
-| :---: | :---: | :---: | :---: | :---: |
-| Data Scientist | Pinpoint |  Austin, Texas | Sep, 2019 | 7 months |
-| Data Analyst | JANA Corporation |  Aurora, Ontario | Jan, 2019 | 4 months |
-| Math Tutor | Humber College |  Etobicoke, Ontario | Sep, 2017 | 4 months |
-| Teacher Intern | Bronte College |  Missisauga, Ontario | Sep,2017 | 4 months |
-| Math Resource Assistant | Mohawk College |  Hamilton, Ontario | Jan, 2017 | 4 months |
-| Front Desk Assistant | Desk Services | Waterloo, Ontario | May, 2017 | 2 years |
+

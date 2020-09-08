@@ -63,7 +63,7 @@ axis(side = 1, at = c(1,2), labels = c("30", "90"))
 
 [<img src="./p11.png" width="900"/>](./p11.png)
 
-The plots of preview size and preview length shows that the average browsing time decreases as we go from their respective lows to highs. On the other hand, in the plot for title size, we can see that going from 0.1 to 0.3 doesn't much effect the average browsing time. This leads us to believe that the title size might be insignificant. 
+The plots of preview size and preview length shows that the average browsing time decreases as we go from their respective lows to highs. On the other hand, in the plot for title size, we can see that going from 0.1 to 0.3 doesn't much effect the average browsing time. This leads us to believe that the title size might be insignificant. We will test the null hypotesis if title size is relevant or not.
 
 ```
 ## Fit a full model with all main effects and interaction terms
@@ -76,3 +76,7 @@ anova(model_red,model)
 ```
 
 [<img src="./p12.png" width="500"/>](./p12.png)
+
+We fail to reject the null hypothesis that both the models fits the data equally well. Therefore, we will be dropping the tile size for the rest of the experiment.
+
+### Phase 2

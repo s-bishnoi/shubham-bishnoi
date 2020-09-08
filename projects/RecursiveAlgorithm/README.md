@@ -86,12 +86,12 @@ board = [
 print_board(board)
 ```
 
-[<img src="./complete.png" width="300"/>](./complete.png)
+[<img src="./incomplete.png" width="300"/>](./incomplete.png)
 
 ```
 solve(board)
 print_board(board)
 ```
-[<img src="./incomplete.png" width="300"/>](./incomplete.png)
+[<img src="./complete.png" width="300"/>](./complete.png)
 
 This runs in 3 seconds

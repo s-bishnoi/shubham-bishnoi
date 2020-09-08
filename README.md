@@ -2,7 +2,7 @@
 
 [<img src="./images/photo.png" width="150"/>](./images/photo.png) 
 
-Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree with a Computer Science minor from Univeristy of Waterloo. Few things that interest me are data visualization, A/B testing and working with databases. I am looking for a respectful and creative work environment and team that challenge me to learn new things. I aspire to teach Data Science and Ethics in the future. 
+Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree with a Computer Science minor from University of Waterloo. Few things that interest me are data visualization, A/B testing and working with databases. I am looking for a respectful and creative work environment and team that challenge me to learn new things. I aspire to teach Data Science and Ethics in the future. 
 
 # Contact Information
 
@@ -13,9 +13,9 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 | Name | Description | Skills | Link |
 | :---: | :---: | :---: | :---: |
 | **Experimental Design** | The project is on experimenting with different features of the online streaming service to reduce the average browsing time. |  *A/B Testing, Hypotesis testing, R* | [Link](./projects/ExperimentalDesign/) |
-| **Database Design** | This project is on creating a databse that could be used by people to do basic and advanced SQL queries. The databse is in 3rd Normal form and created all manually. |  *SQL* | [Link](./projects/DatabaseDesign/) |
+| **Database Design** | This project is on creating a database that could be used by people to do basic and advanced SQL queries. The database is in 3rd Normal form and most of the data is original (created manually). |  *SQL* | [Link](./projects/DatabaseDesign/) |
 | **Prediction Model** | This project is on creating a prediction model for happiness of people based on attributes given. The achieved accuracy was 80.63%. |  *Prediction* | [Link](./projects/PredictionClassificationModel/) |
-| **Data Visualization** | Running Bar Graph of top 10 countries that have most number of Covid-19 cases |  *Python, Big Data* | [Link](./projects/DataVisualization/) |
+| **Data Visualization** | This project is on getting a data visualization of running Bar Graph of top 10 countries that have most number of Covid-19 cases |  *Python, Big Data* | [Link](./projects/DataVisualization/) |
 
 
 # Work Experience

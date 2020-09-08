@@ -6,7 +6,7 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 
 # Contact Information
 
-| [<img src="./images/linkedin.png" width="25"/>](./images/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | [<img src="./images/email.png" width="25"/>](./images/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) | [<img src="./images/phone.png" width="25"/>](./images/phone.png) | +1 (519) 781-5497 |
+| [Resume](./stuff/resume.pdf) | [<img src="./images/linkedin.png" width="25"/>](./images/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | [<img src="./images/email.png" width="25"/>](./images/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) | [<img src="./images/phone.png" width="25"/>](./images/phone.png) | +1 (519) 781-5497 |
 
 # Projects
 
@@ -24,11 +24,9 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 | :---: | :---: | :---: | :---: | :---: |
 | **Data Scientist** | *Pinpoint* |  Austin, Texas | Sep,2019 | 7 months |
 | **Data Analyst** | *JANA Corporation* |  Aurora, Ontario | Jan,2019 | 4 months |
-| **Math Tutor** | *Humber College* |  Etobicoke, Ontario | Sep,2017 | 4 months |
+| **Math Tutor** | *Humber College* |  Etobicoke, Ontario | May,2018 | 4 months |
 | **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,2017 | 4 months |
 | **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,2017 | 4 months |
 | **Front Desk Assistant** | *Desk Services* | Waterloo, Ontario | May,2017 | 2 years |
-
-Here is my resume: [Resume](./stuff/resume.pdf)
 
 

@@ -31,7 +31,7 @@ Here is my resume: [Resume](./stuff/resume.pdf)
 
 | Title | Company | Location | Start | Duration |
 | :---: | :---: | :---: | :---: | :---: |
-| Data Scientist | Pinpoint |  Austin, Texas | Sep, 2019 | 7 months | Desk Services |
+| Data Scientist | Pinpoint |  Austin, Texas | Sep, 2019 | 7 months |
 | Data Analyst | JANA Corporation |  Aurora, Ontario | Jan, 2019 | 4 months |
 | Math Tutor | Humber College |  Etobicoke, Ontario | Sep, 2017 | 4 months |
 | Teacher Intern | Bronte College |  Missisauga, Ontario | Sep,2017 | 4 months |

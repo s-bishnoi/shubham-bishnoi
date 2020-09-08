@@ -17,3 +17,29 @@ The optimum value turns out to be
 ### Phase 1
 
 The objective of this phase of the experiment is to figure out if any of the factors Tile.Size, Prev.Size, and Prev.Length are significantly important for *Average Browsing Time* response. The 2^K = 2^3 factorial experiment was used instead of a $2^{3-1}$ because the design generator AB = C leads to defining relation of I = ABC with resolution III. In resolution III, every main effect would have been confounded with a two-factor interaction. It is difficult to differentiate the significance achieved through main effects or the interactions in the linear model in lower resolution.
+
+```
+## Load helpful packages and functions
+library(plot3D) # needed for the mesh() function
+library(gplots)
+# Function to create blues
+blue_palette <- colorRampPalette(c(rgb(247,251,255,maxColorValue = 255), rgb(8,48,107,maxColorValue = 255)))
+# Function for converting from natural units to coded units
+convert.N.to.C <- function(U,UH,UL){
+  x <- (U - (UH+UL)/2) / ((UH-UL)/2)
+  return(x)
+}
+# Function for converting from coded units to natural units
+convert.C.to.N <- function(x,UH,UL){
+  U <- x*((UH-UL)/2) + (UH+UL)/2
+  return(U)
+}
+# Data
+netflix.ph1 <- read.csv(file = "./RESULTS_20636835_2020-08-08_factor_screen.csv", header = T)
+
+ph0 <- data.frame(y = netflix.ph1$Browse.Time,
+                  x1 = convert.N.to.C(U = netflix.ph1$Prev.Length, UH = 90, UL = 30),
+                  x2 = convert.N.to.C(U = netflix.ph1$Prev.Size, UH = 0.5, UL = 0.3),
+                  x3 = convert.N.to.C(U = netflix.ph1$Tile.Size, UH = 0.3, UL = 0.1))
+
+```

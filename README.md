@@ -1,14 +1,22 @@
 # About me
 
+| Education |
+| :---: |
+| University of Waterloo, **Statistics**, Honours, Co-operative Program, **Computer Science** Minor, Class of 2020 |
+
 ## Contact Information
 
 | [<img src="./images/linkedin.png" width="25"/>](./images/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | [<img src="./images/email.png" width="25"/>](./images/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) | [<img src="./images/phone.png" width="25"/>](./images/phone.png) | +1 (519) 781-5497 |
 
-| Education |
-| :---: |
-| University of Waterloo, Statistics, Honours, Co-operative Program, Computer Science Minor, Class of 2020 |
-
 ## Projects
+
+### Experimental Design
+
+### Databse Design
+
+### Prediction
+
+### Data Visualization
 
 
 ## Work Experience

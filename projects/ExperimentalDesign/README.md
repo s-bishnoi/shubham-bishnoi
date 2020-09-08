@@ -14,3 +14,6 @@ The optimum value turns out to be
 | :---: | :---: | :---: | :---: |
 | 15 minutes and 45 seconds | 90 | 0.65 | 0.2 |
 
+### Phase 1
+
+The objective of this phase of the experiment is to figure out if any of the factors Tile.Size, Prev.Size, and Prev.Length are significantly important for *Average Browsing Time* response. The 2^K = 2^3 factorial experiment was used instead of a $2^{3-1}$ because the design generator AB = C leads to defining relation of I = ABC with resolution III. In resolution III, every main effect would have been confounded with a two-factor interaction. It is difficult to differentiate the significance achieved through main effects or the interactions in the linear model in lower resolution.

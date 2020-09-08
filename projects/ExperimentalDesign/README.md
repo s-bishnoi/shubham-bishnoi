@@ -2,7 +2,7 @@
 
 # Experimental Design
 
-**Work in Progress**
+### Summary
 
 The project is on experimenting with different features of the online streaming service to reduce the average browsing time. They generates revenue when users stream something online by minimal browsing. Due to so many options, users often get overwhelmed and end up watching nothing. Therefore, the purpose of this experiment is to find the combination of optimum values of preview length, preview size and tile size to minimize the average browsing time, thereby resulting in quicker user selection.
 
@@ -37,7 +37,7 @@ convert.C.to.N <- function(x,UH,UL){
 }
 ```
 
-### Phase 1
+### Phase 1: Factor Screening
 
 The objective of this phase of the experiment is to figure out if any of the factors Tile.Size, Prev.Size, and Prev.Length are significantly important for *Average Browsing Time* response. The 2^K = 2^3 factorial experiment was used because 2^(3-1) will lead to resolution III. In resolution III, every main effect would have been confounded with a two-factor interaction. It is difficult to differentiate the significance achieved through main effects or the interactions in the linear model in lower resolution.
 
@@ -79,4 +79,6 @@ anova(model_red,model)
 
 We fail to reject the null hypothesis that both the models fits the data equally well. Therefore, we will be dropping the tile size for the rest of the experiment.
 
-### Phase 2
+### Phase 2: Method of Steepest Descent
+
+The objective of this part of the experiment is to figure out if we are in the presence of quadratic curvature, which further signifies that we are in the vicinity of the optimum. We start by getting a center point condition based on our factor screening data. Using high and low data from the screening phase and the data simulated for the one center condition (given below) provided us the second order linear predictor.

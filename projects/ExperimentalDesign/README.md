@@ -61,4 +61,4 @@ plotmeans(formula = y~x1, ylab = "Average Browsing Time", xlab = "Prev.Length",
 axis(side = 1, at = c(1,2), labels = c("30", "90"))
 ```
 
-[<img src="./p11.png" width="800"/>](./p11.png)
+[<img src="./p11.png" width="900"/>](./p11.png)

@@ -2,7 +2,7 @@
 
 # Database Design
 
-[ Database ] (ResidenceDatabase.db)
+[ Database ] (projects/DatabaseDesign/ResidenceDatabase.db)
  
 ## Overview
 

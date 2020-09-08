@@ -16,6 +16,7 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 | **Database Design** | This project is on creating a database that could be used by people to do basic and advanced SQL queries. The database is in 3rd Normal form and most of the data is original (created manually). |  *Entity Relation Diagram, Relational model and SQL queries in SQLite* | [Link](./projects/DatabaseDesign/) |
 | **Prediction Model** | This project is on creating a prediction model for happiness of people based on attributes given. The achieved accuracy was 80.63%. |  *Feature Engineering, Generalized Linear Model, Random Forest Model, Deep Learning Model and Stacking in R* | [Link](./projects/PredictionClassificationModels) (100% Upload pending) |
 | **Data Visualization** | This project is on getting a data visualization of running bar graph of top 10 countries that have most number of Covid-19 cases |  *Spark, matplotlib and SQL in Python* | [Link](./projects/DataVisualization/) (100% Upload pending) |
+| **Recursive Algorithms** | This project is on solving the sudoku using recursive |  *Recursion in Python* | [Link](./projects/RecursiveAlgorithms/) |
 
 
 # Work Experience

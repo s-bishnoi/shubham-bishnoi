@@ -1,5 +1,4 @@
-Back to the portfolio:
-[Portfolio](https://s-bishnoi.github.io/shubham-bishnoi/)
+[<- Back to the portfolio](https://s-bishnoi.github.io/shubham-bishnoi/)
 
 # Database Design
 

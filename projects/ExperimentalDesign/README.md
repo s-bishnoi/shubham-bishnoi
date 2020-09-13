@@ -10,6 +10,8 @@ Three factors will be explored in this project; Tile Size, Preview Size, and Pre
 
 The optimum value turns out to be
 
+[<img src="./p31.png" width="800"/>](./p31.png)
+
 | Average Browsing Time | Preview.Length | Preview.Size | Tile.Size |
 | :---: | :---: | :---: | :---: |
 | 15 minutes and 45 seconds | 90 | 0.65 | 0.2 |
@@ -285,7 +287,7 @@ model <- lm(y ~ x1 + x2 + x1*x2 + I(x1^2) + I(x2^2), data = ph3)
 summary(model)
 ```
 
-[<img src="./p31.png" width="500"/>](./p31.png)
+[<img src="./p32.png" width="500"/>](./p32.png)
 
 Let's visualize this surface:
 
@@ -332,7 +334,7 @@ contour(x = seq(30, 120, length.out = 100),
         nlevels = 20, col = blue_palette(20), labcex = 0.9)
 ```
 
-[<img src="./p32.png" width="800"/>](./p32.png)
+[<img src="./p33.png" width="800"/>](./p33.png)
 
 It's easier to visualize this through contour plots of the fitted response surface. The left graph is in coded units and the right graph is in natural units.
 
@@ -361,4 +363,4 @@ A slightly less optimal but more practically would be a 0.65 preview size that g
   
 The red points on the plot represents the optimum value and green points represent the slightly less optimal but practical value.
 
-[<img src="./p33.png" width="800"/>](./p33.png)
+[<img src="./p34.png" width="800"/>](./p34.png)

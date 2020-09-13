@@ -81,4 +81,25 @@ We fail to reject the null hypothesis that both the models fits the data equally
 
 ### Phase 2: Method of Steepest Descent
 
-The objective of this part of the experiment is to figure out if we are in the presence of quadratic curvature, which further signifies that we are in the vicinity of the optimum. We start by getting a center point condition based on our factor screening data. Using high and low data from the screening phase and the data simulated for the one center condition (given below) provided us the second order linear predictor.
+The objective of this part of the experiment is to figure out if we are in the presence of quadratic curvature, which further signifies that we are in the vicinity of the optimum. We start by getting a center point condition based on our factor screening data. We can't calculate the coefficients for quadratic terms for the data, but we can calculate the sum of quadratic terms by xPQ.
+
+```
+netflix.ph2 <- rbind(netflix.ph1,read.csv("./centre_data.csv", header = TRUE))
+
+ph2 <- data.frame(y = netflix.ph2$Browse.Time,
+                  x1 = convert.N.to.C(U = netflix.ph2$Prev.Length, UH = 90, UL = 30),
+                  x2 = convert.N.to.C(U = netflix.ph2$Prev.Size, UH = 0.5, UL = 0.3))
+
+ph2$xPQ <- (ph2$x1^2 + ph2$x2^2)/2
+```
+We fit the the second order linear predictor model,
+
+```
+## Check to see if that's significant
+m <- lm(y~x1+x2+x1*x2+xPQ, data = ph2)
+summary(m)
+```
+
+[<img src="./p21.png" width="500"/>](./p21.png)
+
+We test the null hypothesis for coefficient of curvature, p-value = P(T >= |t|) = 0.352 where t is test statistic value, -0.931  and T is Normally distributed. We fail to reject the null hypothesis and hence we are not in the presence of quadratic curvature, therefore we will try to find the curvature by calculating gradient g = [-0.74183, -0.64929], step size lambda = (1/3)/(|-0.74183|) (the value 1/3 was chosen to ensure steps of 10 seconds in Preview Lengths) and changing x' = x - lambda * g until x' becomes out of range. The step of 10 seconds was selected so that we only have to take 6 steps instead of 12 for 5 seconds.

@@ -124,8 +124,6 @@ x' = x - lambda * g
 | 5 | 110 | 0.5458748 |
 | 6 | 120 | 0.5750498 |
 
-[<img src="./p22.png" width="500"/>](./p22.png)
-
 ```
 m.fo <- lm(y~x1+x2, data = ph2)
 beta0 <- coef(m.fo)[1]
@@ -209,4 +207,56 @@ points(x = x.new[1,1], y = x.new[1,2], col = "red", pch = 16)
 text(x = x.new[1,1], y = x.new[1,2]+0.25, labels = "6")
 step6 <- data.frame(Prev.Length = convert.C.to.N(x = x.new[1,1], UH = 90, UL = 30), 
                     Prev.Size = convert.C.to.N(x = x.new[1,2], UH = 0.5, UL = 0.3))
+
+netflix.ph2.1 <- read.csv("./gradient_part.csv", header = TRUE)
+
+## Calculate the average browsing time in each of these conditions and find the condition that minimizes it
+pstd.means <- aggregate(netflix.ph2.1$Browse.Time, 
+                        by = list(Prev.Length = netflix.ph2.1$Prev.Length, 
+                                  Prev.Size = netflix.ph2.1$Prev.Size), 
+                        FUN = mean)
+
+plot(x = 0:6, y = pstd.means$x,
+     type = "l", xlab = "Step Number", ylab = "Average Browsing Time")
+points(x = 0:6, y = pstd.means$x,
+       col = "red", pch = 16)
 ```
+
+[<img src="./p22.png" width="500"/>](./p22.png)
+
+The plot above on the right depicts the average browsing time for the six steps that we took. Clearly, Step 3 corresponded to the lowest observed average browsing time. Therefore we should perform another test of curvature in this region to determine whether we have reached the vicinity of the optimum.
+
+In order to do so, another 2^2 factorial experiment with a center point was ran. The factor levels in coded and natural units for this next experiment are shown in the table below.
+
+| Condition | Preview.Length | x1 | Preview.Size | x2 |
+| 1 | 80 | -1 | 0.5875 | +1 | 
+| 2 | 80 | -1 | 0.3875 | -1 | 
+| 3 | 100 | +1 | 0.5875 | +1 | 
+| 4 | 100 | +1 | 0.3875 | -1 | 
+| 5 | 90 | 0 | 0.4875 | 0 | 
+
+```
+
+netflix.ph2.2 <- rbind(read.csv("./recentre_again.csv"),
+                    netflix.ph2.1[netflix.ph2.1$Prev.Length == 90,])
+
+ph2.2 <- data.frame(y = netflix.ph2.2$Browse.Time,
+                    x1 = round(convert.N.to.C(U = netflix.ph2.2$Prev.Length, UH = 100, UL = 80),1),
+                    x2 = round(convert.N.to.C(U = netflix.ph2.2$Prev.Size, UH = 0.5875249, UL = 0.3875249),1))
+
+ph2.2$xPQ <- (ph2.2$x1^2 + ph2.2$x2^2)/2
+
+## Check to see if that's significant
+m <- lm(y~x1+x2+x1*x2+xPQ, data = ph2.2)
+summary(m)
+```
+
+[<img src="./p23.png" width="500"/>](./p23.png)
+
+We again test the null hypothesis for oefficient of curvature being zero, 
+
+**p-value = P(T >= \|t\|) = 0.0000318** where t is test statistic value 4.176  and T is Normally distributed.
+
+We reject the null hypothesis that there is no curvature and hence we are in the presence of quadratic curvature. This investigation is followed up by a response surface experiment so that a full second order model may be fit and the optimum identified.
+
+### Phase 3: Response Optimization

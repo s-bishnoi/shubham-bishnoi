@@ -102,14 +102,111 @@ summary(m)
 
 [<img src="./p21.png" width="500"/>](./p21.png)
 
-We test the null hypothesis for coefficient of curvature, p-value = P(T >= \|t\|) = 0.352 where t is test statistic value -0.931  and T is Normally distributed. 
+We test the null hypothesis for coefficient of curvature being zero, 
 
-We fail to reject the null hypothesis and hence we are not in the presence of quadratic curvature, therefore we will try to find the curvature by calculating 
+**p-value = P(T >= \|t\|) = 0.352** where t is test statistic value -0.931 and T is Normally distributed. 
 
-gradient g = [-0.74183, -0.64929], 
+We fail to reject the null hypothesis and hence we are not in the presence of quadratic curvature, therefore we will try to find the curvature by calculating gradient (g), step size (lambda) and new x (x') until x' becomes out of range.
 
-step size lambda = (1/3)/(\|-0.74183\|) (the value 1/3 was chosen to ensure steps of 10 seconds in Preview Lengths) and 
+g = [-0.74183, -0.64929]
 
-changing x' = x - lambda * g until x' becomes out of range. 
+lambda = (1/3)/(\|-0.74183\|) (the value 1/3 was chosen to ensure steps of 10 seconds in Preview Lengths)
 
-The step of 10 seconds was selected so that we only have to take 6 steps instead of 12 for 5 seconds.
+x' = x - lambda * g 
+
+| Step | Preview.Length | Preview.Size |
+| :---: | :---: | :---: |
+| 0 | 60 | 0.4000000 |
+| 1 | 70 | 0.4291750 |
+| 2 | 80 | 0.4583499 |
+| 3 | 90 | 0.4875249 |
+| 4 | 100 | 0.5166998 |
+| 5 | 110 | 0.5458748 |
+| 6 | 120 | 0.5750498 |
+
+[<img src="./p22.png" width="500"/>](./p22.png)
+
+```
+m.fo <- lm(y~x1+x2, data = ph2)
+beta0 <- coef(m.fo)[1]
+beta1 <- coef(m.fo)[2]
+beta2 <- coef(m.fo)[3]
+grd <- mesh(x = seq(convert.N.to.C(U = 30, UH = 90, UL = 30), 
+                    convert.N.to.C(U = 120, UH = 90, UL = 30), 
+                    length.out = 100), 
+            y = seq(convert.N.to.C(U = 0.2, UH = 0.5, UL = 0.3), 
+                    convert.N.to.C(U = 0.8, UH = 0.5, UL = 0.3), 
+                    length.out = 100))
+x1 <- grd$x
+x2 <- grd$y
+eta.fo <- beta0 + beta1*x1 + beta2*x2
+# 2D contour plot
+par(mfrow = c(1,2))
+contour(x = seq(convert.N.to.C(U = 30, UH = 90, UL = 30), 
+                convert.N.to.C(U = 120, UH = 90, UL = 30), 
+                length.out = 100),
+        y = seq(convert.N.to.C(U = 0.2, UH = 0.5, UL = 0.3), 
+                convert.N.to.C(U = 0.8, UH = 0.5, UL = 0.3), 
+                length.out = 100), 
+        z = eta.fo, xlab = "x1 (Preview Length)", ylab = "x2 (Preview Size)",
+        nlevels = 15, col = blue_palette(15), labcex = 0.9, asp=1, xlim = c(-2,3))
+abline(a = 0, b = beta2/beta1, lty = 2)
+points(x = 0, y = 0, col = "red", pch = 16)
+g <- matrix(c(beta1, beta2), nrow = 1)
+
+PL.step <- convert.N.to.C(U = 60 + 10, UH = 90, UL = 30)
+lamda <- PL.step/abs(beta1)
+
+## Step 0: The center point we've already observed
+x.old <- matrix(0, nrow=1, ncol=2)
+text(x = 0, y = 0+0.25, labels = "0")
+step0 <- data.frame(Prev.Length = convert.C.to.N(x = 0, UH = 90, UL = 30), 
+                    Prev.Size = convert.C.to.N(x = 0, UH = 0.5, UL = 0.3))
+
+## Step 1: 
+x.new <- x.old - lamda*g
+points(x = x.new[1,1], y = x.new[1,2], col = "red", pch = 16)
+text(x = x.new[1,1], y = x.new[1,2]+0.25, labels = "1")
+step1 <- data.frame(Prev.Length = convert.C.to.N(x = x.new[1,1], UH = 90, UL = 30), 
+                    Prev.Size = convert.C.to.N(x = x.new[1,2], UH = 0.5, UL = 0.3))
+
+## Step 2: 
+x.old <- x.new
+x.new <- x.old - lamda*g
+points(x = x.new[1,1], y = x.new[1,2], col = "red", pch = 16)
+text(x = x.new[1,1], y = x.new[1,2]+0.25, labels = "2")
+step2 <- data.frame(Prev.Length = convert.C.to.N(x = x.new[1,1], UH = 90, UL = 30), 
+                    Prev.Size = convert.C.to.N(x = x.new[1,2], UH = 0.5, UL = 0.3))
+
+## Step 3: 
+x.old <- x.new
+x.new <- x.old - lamda*g
+points(x = x.new[1,1], y = x.new[1,2], col = "red", pch = 16)
+text(x = x.new[1,1], y = x.new[1,2]+0.25, labels = "3")
+step3 <- data.frame(Prev.Length = convert.C.to.N(x = x.new[1,1], UH = 90, UL = 30), 
+                    Prev.Size = convert.C.to.N(x = x.new[1,2], UH = 0.5, UL = 0.3))
+
+## Step 4: 
+x.old <- x.new
+x.new <- x.old - lamda*g
+points(x = x.new[1,1], y = x.new[1,2], col = "red", pch = 16)
+text(x = x.new[1,1], y = x.new[1,2]+0.25, labels = "4")
+step4 <- data.frame(Prev.Length = convert.C.to.N(x = x.new[1,1], UH = 90, UL = 30), 
+                    Prev.Size = convert.C.to.N(x = x.new[1,2], UH = 0.5, UL = 0.3))
+
+## Step 5: 
+x.old <- x.new
+x.new <- x.old - lamda*g
+points(x = x.new[1,1], y = x.new[1,2], col = "red", pch = 16)
+text(x = x.new[1,1], y = x.new[1,2]+0.25, labels = "5")
+step5 <- data.frame(Prev.Length = convert.C.to.N(x = x.new[1,1], UH = 90, UL = 30), 
+                    Prev.Size = convert.C.to.N(x = x.new[1,2], UH = 0.5, UL = 0.3))
+
+## Step 6: 
+x.old <- x.new
+x.new <- x.old - lamda*g
+points(x = x.new[1,1], y = x.new[1,2], col = "red", pch = 16)
+text(x = x.new[1,1], y = x.new[1,2]+0.25, labels = "6")
+step6 <- data.frame(Prev.Length = convert.C.to.N(x = x.new[1,1], UH = 90, UL = 30), 
+                    Prev.Size = convert.C.to.N(x = x.new[1,2], UH = 0.5, UL = 0.3))
+```

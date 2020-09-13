@@ -102,4 +102,14 @@ summary(m)
 
 [<img src="./p21.png" width="500"/>](./p21.png)
 
-We test the null hypothesis for coefficient of curvature, p-value = P(T >= |t|) = 0.352 where t is test statistic value, -0.931  and T is Normally distributed. We fail to reject the null hypothesis and hence we are not in the presence of quadratic curvature, therefore we will try to find the curvature by calculating gradient g = [-0.74183, -0.64929], step size lambda = (1/3)/(|-0.74183|) (the value 1/3 was chosen to ensure steps of 10 seconds in Preview Lengths) and changing x' = x - lambda * g until x' becomes out of range. The step of 10 seconds was selected so that we only have to take 6 steps instead of 12 for 5 seconds.
+We test the null hypothesis for coefficient of curvature, p-value = P(T >= \|t\|) = 0.352 where t is test statistic value -0.931  and T is Normally distributed. 
+
+We fail to reject the null hypothesis and hence we are not in the presence of quadratic curvature, therefore we will try to find the curvature by calculating 
+
+gradient g = [-0.74183, -0.64929], 
+
+step size lambda = (1/3)/(\|-0.74183\|) (the value 1/3 was chosen to ensure steps of 10 seconds in Preview Lengths) and 
+
+changing x' = x - lambda * g until x' becomes out of range. 
+
+The step of 10 seconds was selected so that we only have to take 6 steps instead of 12 for 5 seconds.

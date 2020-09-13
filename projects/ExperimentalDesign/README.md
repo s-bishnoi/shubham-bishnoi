@@ -264,3 +264,101 @@ We again test the null hypothesis for oefficient of curvature being zero,
 We reject the null hypothesis that there is no curvature and hence we are in the presence of quadratic curvature. This investigation is followed up by a response surface experiment so that a full second order model may be fit and the optimum identified.
 
 ### Phase 3: Response Optimization
+
+The objective of this part of the experiment is to figure out the optimum value which minimizes the average browsing time, given we are in the vicinity of the optimum. We used spherical central composite design with parameter a = sqrt(2). Re-centered data from previous phase and the data simulated for the four conditions below provided us the second order linear predictor. 
+
+| Condition | Preview.Length | x1 | Preview.Size | x2 |
+| :---: | :---: | :---: | :---: | :---: |
+| 1 | 104 | +1.4 | 0.4875 | 0 | 
+| 2 | 76 | -1.4 | 0.4875 | 0 | 
+| 3 | 90 | 0 | 0.6275 | +1.4 | 
+| 4 | 90 | 0 | 0.3475 | -1.4 | 
+
+```
+netflix.ph3 <- rbind(netflix.ph2.2,read.csv("./ccd_again.csv"))
+
+ph3 <- data.frame(y = netflix.ph3$Browse.Time,
+                    x1 = round(convert.N.to.C(U = netflix.ph3$Prev.Length, UH = 100, UL = 80),1),
+                    x2 = round(convert.N.to.C(U = netflix.ph3$Prev.Size, UH = 0.5875249, UL = 0.3875249),1))
+
+model <- lm(y ~ x1 + x2 + x1*x2 + I(x1^2) + I(x2^2), data = ph3)
+summary(model)
+```
+
+[<img src="./p31.png" width="500"/>](./p31.png)
+
+Let's visualize this surface:
+
+```
+beta0 <- coef(model)[1]
+beta1 <- coef(model)[2]
+beta2 <- coef(model)[3]
+beta12 <- coef(model)[6]
+beta11 <- coef(model)[4]
+beta22 <- coef(model)[5]
+grd <- mesh(x = seq(convert.N.to.C(U = 30, UH = 100, UL = 80), 
+                    convert.N.to.C(U = 120, UH = 100, UL = 80), 
+                    length.out = 100), 
+            y = seq(convert.N.to.C(U = 0.2, UH = 0.5875249, UL = 0.3875249), 
+                    convert.N.to.C(U = 0.8, UH = 0.5875249, UL = 0.3875249), 
+                    length.out = 100))
+x1 <- grd$x
+x2 <- grd$y
+eta.so <- beta0 + beta1*x1 + beta2*x2 + beta12*x1*x2 + beta11*x1^2 + beta22*x2^2
+
+## Let's find the maximum of this surface and the corresponding factor levels 
+## at which this is achieved
+b <- matrix(c(beta1,beta2), ncol = 1)
+B <- matrix(c(beta11, 0.5*beta12, 0.5*beta12, beta22), nrow = 2, ncol = 2)
+x.s <- -0.5*solve(B) %*% b 
+
+# The predicted book rate at this configuration is:
+eta.s <- beta0 + 0.5*t(x.s) %*% b
+
+# 2D contour plot (coded units)
+par(mfrow = c(1,2))
+contour(x = seq(convert.N.to.C(U = 30, UH = 100, UL = 80), 
+                convert.N.to.C(U = 120, UH = 100, UL = 80), 
+                length.out = 100), 
+        y = seq(convert.N.to.C(U = 0.2, UH = 0.5875249, UL = 0.3875249), 
+                convert.N.to.C(U = 0.8, UH = 0.5875249, UL = 0.3875249), 
+                length.out = 100), 
+        z = eta.so, xlab = "x1", ylab = "x2",
+        nlevels = 20, col = blue_palette(20), labcex = 0.9)
+# Remake the contour plot but in natural units
+contour(x = seq(30, 120, length.out = 100), 
+        y = seq(0.2, 0.8, length.out = 100), 
+        z = eta.so, xlab = "x1 (Preview Length)", ylab = "x2 (Preview Size)",
+        nlevels = 20, col = blue_palette(20), labcex = 0.9)
+```
+
+[<img src="./p32.png" width="800"/>](./p32.png)
+
+It's easier to visualize this through contour plots of the fitted response surface. The left graph is in coded units and the right graph is in natural units.
+
+Looking at the coded contour plot, it's clear that the optimum is somewhere around (0,2).
+
+```
+# In natural units this optimum is located at
+convert.C.to.N(x = x.s[1,1], UH = 100, UL = 80)
+convert.C.to.N(x = x.s[2,1], UH = 0.5875249, UL = 0.3875249)
+## 95% prediction interval at this optimum:
+n.data <- data.frame(x1=x.s[1,1], x2=x.s[2,1])
+pred <- predict(model, newdata = n.data, type = "response", se.fit = TRUE)
+pred 
+print(paste("Prediction: ", pred$fit, sep = ""))
+print(paste("95% Prediction interval: (", pred$fit-qnorm(0.975)*pred$se.fit, ",", pred$fit+qnorm(0.975)*pred$se.fit, ")", sep = ""))
+```
+
+  - In the natural units this corresponds to a preview size of 0.6596 that goes for 90.58115 minutes.
+
+  - The predicted average browsing rate at this point is 15.75598, with a 95% prediction interval given by (15.310247,
+16.2017216)
+
+A slightly less optimal but more practically would be a 0.65 preview size that goes for 90 minutes.
+
+  - This achieves an average browsing rate of 15.76 with a 95% prediction interval of (15.37,16.15)
+  
+The red points on the plot represents the optimum value and green points represent the slightly less optimal but practical value.
+
+[<img src="./p33.png" width="800"/>](./p33.png)

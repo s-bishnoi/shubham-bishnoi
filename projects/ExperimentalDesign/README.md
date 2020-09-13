@@ -124,6 +124,7 @@ x' = x - lambda * g
 | 5 | 110 | 0.5458748 |
 | 6 | 120 | 0.5750498 |
 
+
 ```
 m.fo <- lm(y~x1+x2, data = ph2)
 beta0 <- coef(m.fo)[1]
@@ -222,18 +223,21 @@ points(x = 0:6, y = pstd.means$x,
        col = "red", pch = 16)
 ```
 
-[<img src="./p22.png" width="500"/>](./p22.png)
+
+[<img src="./p22.png" width="800"/>](./p22.png)
 
 The plot above on the right depicts the average browsing time for the six steps that we took. Clearly, Step 3 corresponded to the lowest observed average browsing time. Therefore we should perform another test of curvature in this region to determine whether we have reached the vicinity of the optimum.
 
 In order to do so, another 2^2 factorial experiment with a center point was ran. The factor levels in coded and natural units for this next experiment are shown in the table below.
 
 | Condition | Preview.Length | x1 | Preview.Size | x2 |
+| :---: | :---: | :---: | :---: | :---: |
 | 1 | 80 | -1 | 0.5875 | +1 | 
 | 2 | 80 | -1 | 0.3875 | -1 | 
 | 3 | 100 | +1 | 0.5875 | +1 | 
 | 4 | 100 | +1 | 0.3875 | -1 | 
 | 5 | 90 | 0 | 0.4875 | 0 | 
+
 
 ```
 

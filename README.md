@@ -6,7 +6,7 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 
 # Contact Information
 
-| [Resume](./stuff/resume.pdf) | [<img src="./stuff/linkedin.png" width="25"/>](./stuff/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | [<img src="./stuff/email.png" width="25"/>](./stuff/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) | [<img src="./stuff/phone.png" width="25"/>](./stuff/phone.png) | 519-781-5497 |
+| [Resume](./stuff/shubham_bishnoi.pdf) | [<img src="./stuff/linkedin.png" width="25"/>](./stuff/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | [<img src="./stuff/email.png" width="25"/>](./stuff/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) | [<img src="./stuff/phone.png" width="25"/>](./stuff/phone.png) | 519-781-5497 |
 
 # Projects
 

@@ -2,7 +2,15 @@
 
 # Experimental Design
 
-### Summary
+- Summary and Results
+- Phase 1: Factor Screening
+- Phase 2: Method of Steepest Descent
+- Phase 3: Response Optimization
+- Code for Phase 1
+- Code for Phase 2
+- Code for Phase 3
+
+### Summary and Results
 
 The project is on experimenting with different features of the online streaming service to reduce the average browsing time. They generates revenue when users stream something online by minimal browsing. Due to so many options, users often get overwhelmed and end up watching nothing. Therefore, the purpose of this experiment is to find the combination of optimum values of preview length, preview size and tile size to minimize the average browsing time, thereby resulting in quicker user selection.
 
@@ -16,66 +24,13 @@ The optimum value turns out to be
 | :---: | :---: | :---: | :---: |
 | 15 minutes and 45 seconds | 90 | 0.65 | 0.2 |
 
-
-#### Load helpful packages and functions
-
-```
-library(plot3D)
-library(gplots)
-
-# Function to create blues
-blue_palette <- colorRampPalette(c(rgb(247,251,255,maxColorValue = 255), rgb(8,48,107,maxColorValue = 255)))
-
-# Function for converting from natural units to coded units
-convert.N.to.C <- function(U,UH,UL){
-  x <- (U - (UH+UL)/2) / ((UH-UL)/2)
-  return(x)
-}
-
-# Function for converting from coded units to natural units
-convert.C.to.N <- function(x,UH,UL){
-  U <- x*((UH-UL)/2) + (UH+UL)/2
-  return(U)
-}
-```
-
 ### Phase 1: Factor Screening
 
 The objective of this phase of the experiment is to figure out if any of the factors Tile.Size, Prev.Size, and Prev.Length are significantly important for *Average Browsing Time* response. The 2^K = 2^3 factorial experiment was used because 2^(3-1) will lead to resolution III. In resolution III, every main effect would have been confounded with a two-factor interaction. It is difficult to differentiate the significance achieved through main effects or the interactions in the linear model in lower resolution.
 
-```
-netflix.ph1 <- read.csv(file = "./factor_screening.csv", header = T)
-
-ph0 <- data.frame(y = netflix.ph1$Browse.Time,
-                  x1 = convert.N.to.C(U = netflix.ph1$Prev.Length, UH = 90, UL = 30),
-                  x2 = convert.N.to.C(U = netflix.ph1$Prev.Size, UH = 0.5, UL = 0.3),
-                  x3 = convert.N.to.C(U = netflix.ph1$Tile.Size, UH = 0.3, UL = 0.1))
-
-par(mfrow=c(2,3)) 
-plotmeans(formula = y~x3, ylab = "Average Browsing Time", xlab = "Tile.Size", 
-          data = ph0, xaxt = "n", pch = 16,ylim = c(16,21))
-axis(side = 1, at = c(1,2), labels = c("0.1", "0.3"))
-plotmeans(formula = y~x2, ylab = "Average Browsing Time", xlab = "Prev.Size", 
-          data = ph0, xaxt = "n", pch = 16,ylim = c(16,21))
-axis(side = 1, at = c(1,2), labels = c("0.3", "0.5"))
-plotmeans(formula = y~x1, ylab = "Average Browsing Time", xlab = "Prev.Length", 
-          data = ph0, xaxt = "n", pch = 16,ylim = c(16,21))
-axis(side = 1, at = c(1,2), labels = c("30", "90"))
-```
-
 [<img src="./p11.png" width="900"/>](./p11.png)
 
 The plots of preview size and preview length shows that the average browsing time decreases as we go from their respective lows to highs. On the other hand, in the plot for title size, we can see that going from 0.1 to 0.3 doesn't much effect the average browsing time. This leads us to believe that the title size might be insignificant. We will test the null hypotesis if title size is relevant or not.
-
-```
-## Fit a full model with all main effects and interaction terms
-model <- lm(y ~ x1 * x2 * x3, data = ph0)
-
-## Fit a reduced model with just the main effects and interactions that appear to be significant
-model_red <- lm(y ~ x1 + x2 + x1:x2, data = ph0)
-
-anova(model_red,model)
-```
 
 [<img src="./p12.png" width="500"/>](./p12.png)
 
@@ -85,22 +40,7 @@ We fail to reject the null hypothesis that both the models fits the data equally
 
 The objective of this part of the experiment is to figure out if we are in the presence of quadratic curvature, which further signifies that we are in the vicinity of the optimum. We start by getting a center point condition based on our factor screening data. We can't calculate the coefficients for quadratic terms for the data, but we can calculate the sum of quadratic terms by xPQ.
 
-```
-netflix.ph2 <- rbind(netflix.ph1,read.csv("./centre_data.csv", header = TRUE))
-
-ph2 <- data.frame(y = netflix.ph2$Browse.Time,
-                  x1 = convert.N.to.C(U = netflix.ph2$Prev.Length, UH = 90, UL = 30),
-                  x2 = convert.N.to.C(U = netflix.ph2$Prev.Size, UH = 0.5, UL = 0.3))
-
-ph2$xPQ <- (ph2$x1^2 + ph2$x2^2)/2
-```
 We fit the the second order linear predictor model,
-
-```
-## Check to see if that's significant
-m <- lm(y~x1+x2+x1*x2+xPQ, data = ph2)
-summary(m)
-```
 
 [<img src="./p21.png" width="500"/>](./p21.png)
 
@@ -126,8 +66,131 @@ x' = x - lambda * g
 | 5 | 110 | 0.5458748 |
 | 6 | 120 | 0.5750498 |
 
+[<img src="./p22.png" width="800"/>](./p22.png)
+
+The plot above on the right depicts the average browsing time for the six steps that we took. Clearly, Step 3 corresponded to the lowest observed average browsing time. Therefore we should perform another test of curvature in this region to determine whether we have reached the vicinity of the optimum.
+
+In order to do so, another 2^2 factorial experiment with a center point was ran. The factor levels in coded and natural units for this next experiment are shown in the table below.
+
+| Condition | Preview.Length | x1 | Preview.Size | x2 |
+| :---: | :---: | :---: | :---: | :---: |
+| 1 | 80 | -1 | 0.5875 | +1 | 
+| 2 | 80 | -1 | 0.3875 | -1 | 
+| 3 | 100 | +1 | 0.5875 | +1 | 
+| 4 | 100 | +1 | 0.3875 | -1 | 
+| 5 | 90 | 0 | 0.4875 | 0 | 
+
+[<img src="./p23.png" width="500"/>](./p23.png)
+
+We again test the null hypothesis for oefficient of curvature being zero, 
+
+**p-value = P(T >= \|t\|) = 0.0000318** where t is test statistic value 4.176  and T is Normally distributed.
+
+We reject the null hypothesis that there is no curvature and hence we are in the presence of quadratic curvature. This investigation is followed up by a response surface experiment so that a full second order model may be fit and the optimum identified.
+
+### Phase 3: Response Optimization
+
+The objective of this part of the experiment is to figure out the optimum value which minimizes the average browsing time, given we are in the vicinity of the optimum. We used spherical central composite design with parameter a = sqrt(2). Re-centered data from previous phase and the data simulated for the four conditions below provided us the second order linear predictor. 
+
+| Condition | Preview.Length | x1 | Preview.Size | x2 |
+| :---: | :---: | :---: | :---: | :---: |
+| 1 | 104 | +1.4 | 0.4875 | 0 | 
+| 2 | 76 | -1.4 | 0.4875 | 0 | 
+| 3 | 90 | 0 | 0.6275 | +1.4 | 
+| 4 | 90 | 0 | 0.3475 | -1.4 | 
+
+[<img src="./p32.png" width="500"/>](./p32.png)
+
+Let's visualize this surface:
+
+[<img src="./p33.png" width="800"/>](./p33.png)
+
+It's easier to visualize this through contour plots of the fitted response surface. The left graph is in coded units and the right graph is in natural units.
+
+Looking at the coded contour plot, it's clear that the optimum is somewhere around (0,2).
+
+  - In the natural units this corresponds to a preview size of 0.6596 that goes for 90.58115 minutes.
+
+  - The predicted average browsing rate at this point is 15.75598, with a 95% prediction interval given by (15.310247,
+16.2017216)
+
+A slightly less optimal but more practically would be a 0.65 preview size that goes for 90 minutes.
+
+  - This achieves an average browsing rate of 15.76 with a 95% prediction interval of (15.37,16.15)
+  
+The red points on the plot represents the optimum value and green points represent the slightly less optimal but practical value.
+
+[<img src="./p34.png" width="800"/>](./p34.png)
+
+-------------------
+
+#### Load helpful packages and functions
 
 ```
+library(plot3D)
+library(gplots)
+
+# Function to create blues
+blue_palette <- colorRampPalette(c(rgb(247,251,255,maxColorValue = 255), rgb(8,48,107,maxColorValue = 255)))
+
+# Function for converting from natural units to coded units
+convert.N.to.C <- function(U,UH,UL){
+  x <- (U - (UH+UL)/2) / ((UH-UL)/2)
+  return(x)
+}
+
+# Function for converting from coded units to natural units
+convert.C.to.N <- function(x,UH,UL){
+  U <- x*((UH-UL)/2) + (UH+UL)/2
+  return(U)
+}
+```
+
+#### Code for Phase 1
+
+```
+netflix.ph1 <- read.csv(file = "./factor_screening.csv", header = T)
+
+ph0 <- data.frame(y = netflix.ph1$Browse.Time,
+                  x1 = convert.N.to.C(U = netflix.ph1$Prev.Length, UH = 90, UL = 30),
+                  x2 = convert.N.to.C(U = netflix.ph1$Prev.Size, UH = 0.5, UL = 0.3),
+                  x3 = convert.N.to.C(U = netflix.ph1$Tile.Size, UH = 0.3, UL = 0.1))
+
+par(mfrow=c(2,3)) 
+plotmeans(formula = y~x3, ylab = "Average Browsing Time", xlab = "Tile.Size", 
+          data = ph0, xaxt = "n", pch = 16,ylim = c(16,21))
+axis(side = 1, at = c(1,2), labels = c("0.1", "0.3"))
+plotmeans(formula = y~x2, ylab = "Average Browsing Time", xlab = "Prev.Size", 
+          data = ph0, xaxt = "n", pch = 16,ylim = c(16,21))
+axis(side = 1, at = c(1,2), labels = c("0.3", "0.5"))
+plotmeans(formula = y~x1, ylab = "Average Browsing Time", xlab = "Prev.Length", 
+          data = ph0, xaxt = "n", pch = 16,ylim = c(16,21))
+axis(side = 1, at = c(1,2), labels = c("30", "90"))
+
+## Fit a full model with all main effects and interaction terms
+model <- lm(y ~ x1 * x2 * x3, data = ph0)
+
+## Fit a reduced model with just the main effects and interactions that appear to be significant
+model_red <- lm(y ~ x1 + x2 + x1:x2, data = ph0)
+
+anova(model_red,model)
+```
+
+#### Code for Phase 2
+
+```
+netflix.ph2 <- rbind(netflix.ph1,read.csv("./centre_data.csv", header = TRUE))
+
+ph2 <- data.frame(y = netflix.ph2$Browse.Time,
+                  x1 = convert.N.to.C(U = netflix.ph2$Prev.Length, UH = 90, UL = 30),
+                  x2 = convert.N.to.C(U = netflix.ph2$Prev.Size, UH = 0.5, UL = 0.3))
+
+ph2$xPQ <- (ph2$x1^2 + ph2$x2^2)/2
+
+## Check to see if that's significant
+m <- lm(y~x1+x2+x1*x2+xPQ, data = ph2)
+summary(m)
+
 m.fo <- lm(y~x1+x2, data = ph2)
 beta0 <- coef(m.fo)[1]
 beta1 <- coef(m.fo)[2]
@@ -223,25 +286,6 @@ plot(x = 0:6, y = pstd.means$x,
      type = "l", xlab = "Step Number", ylab = "Average Browsing Time")
 points(x = 0:6, y = pstd.means$x,
        col = "red", pch = 16)
-```
-
-
-[<img src="./p22.png" width="800"/>](./p22.png)
-
-The plot above on the right depicts the average browsing time for the six steps that we took. Clearly, Step 3 corresponded to the lowest observed average browsing time. Therefore we should perform another test of curvature in this region to determine whether we have reached the vicinity of the optimum.
-
-In order to do so, another 2^2 factorial experiment with a center point was ran. The factor levels in coded and natural units for this next experiment are shown in the table below.
-
-| Condition | Preview.Length | x1 | Preview.Size | x2 |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | 80 | -1 | 0.5875 | +1 | 
-| 2 | 80 | -1 | 0.3875 | -1 | 
-| 3 | 100 | +1 | 0.5875 | +1 | 
-| 4 | 100 | +1 | 0.3875 | -1 | 
-| 5 | 90 | 0 | 0.4875 | 0 | 
-
-
-```
 
 netflix.ph2.2 <- rbind(read.csv("./recentre_again.csv"),
                     netflix.ph2.1[netflix.ph2.1$Prev.Length == 90,])
@@ -257,24 +301,7 @@ m <- lm(y~x1+x2+x1*x2+xPQ, data = ph2.2)
 summary(m)
 ```
 
-[<img src="./p23.png" width="500"/>](./p23.png)
-
-We again test the null hypothesis for oefficient of curvature being zero, 
-
-**p-value = P(T >= \|t\|) = 0.0000318** where t is test statistic value 4.176  and T is Normally distributed.
-
-We reject the null hypothesis that there is no curvature and hence we are in the presence of quadratic curvature. This investigation is followed up by a response surface experiment so that a full second order model may be fit and the optimum identified.
-
-### Phase 3: Response Optimization
-
-The objective of this part of the experiment is to figure out the optimum value which minimizes the average browsing time, given we are in the vicinity of the optimum. We used spherical central composite design with parameter a = sqrt(2). Re-centered data from previous phase and the data simulated for the four conditions below provided us the second order linear predictor. 
-
-| Condition | Preview.Length | x1 | Preview.Size | x2 |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | 104 | +1.4 | 0.4875 | 0 | 
-| 2 | 76 | -1.4 | 0.4875 | 0 | 
-| 3 | 90 | 0 | 0.6275 | +1.4 | 
-| 4 | 90 | 0 | 0.3475 | -1.4 | 
+#### Code for Phase 3
 
 ```
 netflix.ph3 <- rbind(netflix.ph2.2,read.csv("./ccd_again.csv"))
@@ -285,13 +312,7 @@ ph3 <- data.frame(y = netflix.ph3$Browse.Time,
 
 model <- lm(y ~ x1 + x2 + x1*x2 + I(x1^2) + I(x2^2), data = ph3)
 summary(model)
-```
 
-[<img src="./p32.png" width="500"/>](./p32.png)
-
-Let's visualize this surface:
-
-```
 beta0 <- coef(model)[1]
 beta1 <- coef(model)[2]
 beta2 <- coef(model)[3]
@@ -332,15 +353,7 @@ contour(x = seq(30, 120, length.out = 100),
         y = seq(0.2, 0.8, length.out = 100), 
         z = eta.so, xlab = "x1 (Preview Length)", ylab = "x2 (Preview Size)",
         nlevels = 20, col = blue_palette(20), labcex = 0.9)
-```
 
-[<img src="./p33.png" width="800"/>](./p33.png)
-
-It's easier to visualize this through contour plots of the fitted response surface. The left graph is in coded units and the right graph is in natural units.
-
-Looking at the coded contour plot, it's clear that the optimum is somewhere around (0,2).
-
-```
 # In natural units this optimum is located at
 convert.C.to.N(x = x.s[1,1], UH = 100, UL = 80)
 convert.C.to.N(x = x.s[2,1], UH = 0.5875249, UL = 0.3875249)
@@ -351,16 +364,3 @@ pred
 print(paste("Prediction: ", pred$fit, sep = ""))
 print(paste("95% Prediction interval: (", pred$fit-qnorm(0.975)*pred$se.fit, ",", pred$fit+qnorm(0.975)*pred$se.fit, ")", sep = ""))
 ```
-
-  - In the natural units this corresponds to a preview size of 0.6596 that goes for 90.58115 minutes.
-
-  - The predicted average browsing rate at this point is 15.75598, with a 95% prediction interval given by (15.310247,
-16.2017216)
-
-A slightly less optimal but more practically would be a 0.65 preview size that goes for 90 minutes.
-
-  - This achieves an average browsing rate of 15.76 with a 95% prediction interval of (15.37,16.15)
-  
-The red points on the plot represents the optimum value and green points represent the slightly less optimal but practical value.
-
-[<img src="./p34.png" width="800"/>](./p34.png)

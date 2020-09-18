@@ -27,5 +27,3 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 | **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,2017 | 4 months |
 | **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,2017 | 4 months |
 | **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | May,2017 | 2 years |
-
-

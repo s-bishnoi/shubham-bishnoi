@@ -9,6 +9,8 @@
 - Stacking
 - Results
 
+**Note: This project was done in a group of two including myself and [Danielle Won](https://github.com/daniellewon)**
+
 ## Feature Engineering
 
 There are 271 features that lead to response variable of happy or not happy. 5 more features were added:

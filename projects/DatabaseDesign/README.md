@@ -12,7 +12,7 @@
 
 ## Link to download database
 
-[Here](https://github.com/s-bishnoi/shubham-bishnoi/projects/DatabaseDesign/ResidenceDatabase.db)
+[Here](https://github.com/s-bishnoi/shubham-bishnoi/blob/master/projects/DatabaseDesign/ResidenceDatabase.db)
  
 ## Overview
 

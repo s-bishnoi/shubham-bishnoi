@@ -22,7 +22,7 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 | Title | Company | Location | Start | Duration |
 | :---: | :---: | :---: | :---: | :---: |
 | **Data Scientist** | *Pinpoint* |  Austin, Texas | Sep,2019 | 7 months |
-| **Data Analyst** | *JANA Corporation* |  Aurora, Ontario | Jan,2019 | 4 months |
+| **Data Analyst** | *Jana Solutions* |  Aurora, Ontario | Jan,2019 | 4 months |
 | **Math Tutor** | *Humber College* |  Etobicoke, Ontario | May,2018 | 4 months |
 | **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,2017 | 4 months |
 | **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,2017 | 4 months |

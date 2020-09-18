@@ -2,6 +2,16 @@
 
 # Database Design
 
+- Link to download database
+- Overview
+- Creating the database
+- Basic SQL queries
+- Advanced SQL queries
+- Normalization of the database
+- References
+
+## Link to download database
+
 https://github.com/s-bishnoi/shubham-bishnoi/projects/DatabaseDesign/ResidenceDatabase.db
  
 ## Overview
@@ -41,6 +51,7 @@ The Database is tailored in such a way that many basic SQL queries can be execut
 `SELECT Gender,COUNT(*) AS Number FROM Students GROUP BY Gender;`
 
 - To see the distribution of Academic years of students living in Residences:
+
 `SELECT AcademicYear,COUNT(*) AS Number FROM Students GROUP BY AcademicYear;`
 
 - To get a student’s information which their last name given:
@@ -69,9 +80,11 @@ To get into advanced SQL, we start joining tables using JOIN and subquery method
 `SELECT * FROM Parking WHERE ClosestQuad IN (SELECT ID FROM Quad WHERE ResidenceCode IN (SELECT Code FROM Residence WHERE Name = "Farnwin Residence"));`
 
 - Get the residence codes who have more than 200 rooms:
+
 `SELECT ResidenceCode, SUM(Rooms) AS Number_Of_Rooms FROM Quad GROUP BY Rooms HAVING Number_Of_Rooms >= 200;`
 
 - Get the Don’s name and their supervisor’s name and contact number:
+
 `SELECT s.FirstName AS Student_Name, e.FirstName AS Supervisor_Name, e.PhoneNumber AS Supervisor_Number FROM StudentEmployees AS s JOIN Employees AS e ON s.SupervisorID = e.ID WHERE s.Gender = "F" and e.Gender = "F";`
 
 - Create a view for a front desk assistant who only need student’s name, unit, quad and residence:

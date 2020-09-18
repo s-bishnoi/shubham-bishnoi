@@ -27,7 +27,6 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 | **Math Tutor** | *Humber College* |  Etobicoke, Ontario | May,2018 | 4 months | Outstanding |
 | **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,2017 | 4 months | Excellent |
 | **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,2017 | 4 months | Excellent |
-| **Junior Executive** | *Financial GURU* |  India | Jun,2016 | 3 months | Outstanding |
 | **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | May,2017 | 2 years | N/A |
 
 \* The evaluation does not constitute an employment endorsement or recommendation. Employer evaluations

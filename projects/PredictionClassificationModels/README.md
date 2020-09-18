@@ -12,17 +12,58 @@
 ## Feature Engineering
 
 There are 271 features that lead to response variable of happy or not happy. 5 more features were added:
- - Binary response of the person's occupation and partner's occupation being the same or not
- - Ratio of the number of hours worked by the person (v251) and their partner (v252).
- - Binary response of the person and their partner being employed the same way or not
- - Binary response of the person and their partner having same higher education or not
- - Binary response of the person ever changing their religion or not
+ - v271: Binary response of the person's occupation and partner's occupation being the same or not
+ - v272: Ratio of the number of hours worked by the person (v251) and their partner (v252).
+ - v273: Binary response of the person and their partner being employed the same way or not
+ - v274: Binary response of the person and their partner having same higher education or not
+ - v275: Binary response of the person ever changing their religion or not
 
 Combining few distributed time columns into one column
- - Time of supplementary questionnaire
- - Start of the interview
- - End of the interview
+ - v276: Time of supplementary questionnaire
+ - v277: Start of the interview
+ - v278: End of the interview
 
+```
+data$v271 <- 0
+data$v272 <- 0
+data$v273 <- 0
+data$v274 <- 0
+data$v275 <- 0
+data$v276 <- as.Date("1.1.0001",format = "%d.%m.%Y")
+data$v277 <- as.Date("1.1.0001",format = "%d.%m.%Y")
+data$v278 <- as.Date("1.1.0001",format = "%d.%m.%Y")
+
+for (i in 1:NROW(data)){
+  data$v271[i] = data$v150[i] == data$v151[i]
+
+  if (data$v251[i] == '.a' | data$v251[i] == '.b' | 
+      data$v251[i] == '.c' | data$v251[i] == '.d' | 
+      data$v251[i] == '.' | is.na(data$v251[i])){
+    if (data$v252[i] == '.a' | data$v252[i] == '.b' | 
+        data$v252[i] == '.c' | data$v252[i] == '.d' | 
+        data$v252[i] == '.' | is.na(data$v252[i])){
+      data$v272[i] = NA
+    }
+  } else{
+    data$v272[i] = as.integer(data$v251[i]) / as.integer(data$v252[i])
+  }
+  
+  data$v273[i] = data$v70[i] == data$v71[i]
+  
+  data$v274[i] = data$v65[i] == data$v68[i]
+  
+  data$v275[i] = data$v190[i] == data$v191[i]
+  
+  data$v276[i] = as.Date(paste(toString(data$v228[i]),toString(data$v229[i]) ,
+                               toString(data$v230[i]),sep = "."),format = "%d.%m.%Y")
+  
+  data$v277[i] = as.Date(paste(toString(data$v125[i]),toString(data$v129[i]) ,
+                               toString(data$v134[i]),sep = "."),format = "%d.%m.%Y")
+  
+  data$v278[i] = as.Date(paste(toString(data$v124[i]),toString(data$v128[i]) ,
+                               toString(data$v133[i]),sep = "."),format = "%d.%m.%Y")
+}
+```
 ## GLM in h2o
 
 First we will have to covert the R dataframe in to h2o dataframe to use it further. The h2o dataframe will be split into three h2o dataframes named train, valid and test.
@@ -56,7 +97,7 @@ glm_perf1 <- h2o.performance(model = glm_fit1,
                             newdata = train)
 glm_perf1
 ```
-[<img src="./p1.png" width="500"/>](./p1.png)
+[<img src="./p1.png" width="300"/>](./p1.png)
 
 ## Random forest model in h2o
 
@@ -80,7 +121,7 @@ rf_perf1 <- h2o.performance(model = rf_fit1,
 rf_perf1
 ```
 
-[<img src="./p2.png" width="500"/>](./p2.png)
+[<img src="./p2.png" width="300"/>](./p2.png)
 
 ## Deep learning model in h2o
 
@@ -102,7 +143,7 @@ dl_perf1 <- h2o.performance(model = dl_fit1,
 dl_perf1
 ```
 
-[<img src="./p3.png" width="500"/>](./p3.png)
+[<img src="./p3.png" width="300"/>](./p3.png)
 
 ## Stacking
 
@@ -125,7 +166,7 @@ newModel <- h2o.glm(x = c("predict","predict0","predict1"),
 
 summary(newModel)
 ```
-[<img src="./p4.png" width="800"/>](./p4.png)
+[<img src="./p4.png" width="500"/>](./p4.png)
 
 According to this, GLM model is used with 63.6% importance, Random forest model is used with 21.1% importance and Deep learning model is used with 15.3% importance.
 

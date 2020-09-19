@@ -3,3 +3,5 @@
 # Data Visualization
 
 **Work in Progress**
+
+[![Watch the video]](https://youtu.be/8jOWPyynwcg)

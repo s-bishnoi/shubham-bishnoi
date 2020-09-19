@@ -2,4 +2,4 @@
 
 # Data Visualization
 
-<iframe src='//gifs.com/embed/the-spread-of-covid-19-across-the-canada-in-a-running-bar-graph-JyBw1J' frameborder='0' scrolling='no' width='900px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+<iframe src='//gifs.com/embed/the-spread-of-covid-19-across-the-canada-in-a-running-bar-graph-JyBw1J' frameborder='0' scrolling='no' width='900px' height='600px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>

@@ -10,12 +10,12 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 
 # Projects
 
-| Name (Link) | Description | Skills |
-| :---: | :---: | :---: |
-| **Experimental Design** [Link](./projects/ExperimentalDesign/) | The project is on experimenting with different features of the online streaming service to reduce the average browsing time. |  *A/B Testing and Hypothesis testing in R* |
-| **Database Design** [Link](./projects/DatabaseDesign/) | This project is on creating a database that could be used by people to do basic and advanced SQL queries. The database is in 3rd Normal form and most of the data is original (created manually). |  *Entity Relation Diagram, Relational model and SQL queries in SQLite* |
-| **Prediction Model** [Link](./projects/PredictionClassificationModels) | This project is on creating a prediction model for happiness of people based on attributes given. The achieved accuracy was 80.81%. |  *Feature Engineering, Generalized Linear Model, Random Forest Model, Deep Learning Model and Stacking in R using h2o library* |
-| **Data Visualization** [Link](./projects/DataVisualization) | This project is on visualizing Canada provinces' COVID-19 data in a form of running bar graph |  *Pandas, Numpy and Matplotlib libraries in Jupyter* |
+| Name | Description | Skills | Link |
+| :---: | :---: | :---: | :---: |
+| **Experimental Design** | The project is on experimenting with different features of the online streaming service to reduce the average browsing time. |  *A/B Testing and Hypothesis testing in R* | [Link](./projects/ExperimentalDesign/) |
+| **Database Design** | This project is on creating a database that could be used by people to do basic and advanced SQL queries. The database is in 3rd Normal form and most of the data is original (created manually). |  *Entity Relation Diagram, Relational model and SQL queries in SQLite* | [Link](./projects/DatabaseDesign/) |
+| **Prediction Model** | This project is on creating a prediction model for happiness of people based on attributes given. The achieved accuracy was 80.81%. |  *Feature Engineering, Generalized Linear Model, Random Forest Model, Deep Learning Model and Stacking in R using h2o library* | [Link](./projects/PredictionClassificationModels) |
+| **Data Visualization** | This project is on visualizing Canada provinces' COVID-19 data in a form of running bar graph |  *Pandas, Numpy and Matplotlib libraries in Jupyter* | [Link](./projects/DataVisualization) |
 
 
 # Work Experience

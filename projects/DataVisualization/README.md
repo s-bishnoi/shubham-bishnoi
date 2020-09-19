@@ -2,6 +2,14 @@
 
 # Data Visualization
 
+- 5 seconds of running bar graph visualization
+- Some useful libraries
+- Reading and editing the data
+- Getting different colours for provinces
+- Getting the bar chats for each date
+- Getting the running bar graph
+- References
+
 A running graph for COVID-19 total number of cases in provinces of Canada from 29th February to 18th September in 2020.
 
 ### The visualization looks something like this
@@ -98,3 +106,7 @@ fig, ax = plt.subplots(figsize=(15, 8))
 animator = animation.FuncAnimation(fig, draw_barchart, frames=dateList)
 HTML(animator.to_jshtml())
 ```
+
+### References
+
+Canada, P. (2020, September 13). Government of Canada. Retrieved September 19, 2020, from https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html

@@ -20,16 +20,12 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 
 # Work Experience
 
-| Title | Company | Location | Start | Duration | \*Performace Evaluation |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| **Data Scientist** | *Pinpoint* |  Austin, Texas | Sep,2019 | 7 months | Outstanding |
-| **Data Analyst** | *Jana Solutions* |  Aurora, Ontario | Jan,2019 | 4 months | Outstanding |
-| **Math Tutor** | *Humber College* |  Etobicoke, Ontario | May,2018 | 4 months | Outstanding |
-| **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,2017 | 4 months | Excellent |
-| **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,2017 | 4 months | Excellent |
-| **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | May,2017 | 2 years | N/A |
-
-\* The evaluation does not constitute an employment endorsement or recommendation. Employer evaluations
-of student contributions and achievements during the work term are conducted as part of the University of Waterloo’s Cooperative (Co-op) Education model. Like academic grades, overall evaluations are part of the assessment of a student’s
-progress in the co-op portion of their degree studies. These assessments are completed using criteria set out by the
-University, not the employer, and do not reflect the employer’s criteria or assessment metrics.
+| Title | Company | Location | Start | Duration |
+| :---: | :---: | :---: | :---: | :---: |
+| **Data Analyst** | *Brookfield Asset Management* |  Toronto, Ontario | Oct,2020 | Current |
+| **Data Scientist** | *Pinpoint* |  Austin, Texas | Sep,2019 | 7 months |
+| **Data Analyst** | *Jana Solutions* |  Aurora, Ontario | Jan,2019 | 4 months |
+| **Math Tutor** | *Humber College* |  Etobicoke, Ontario | May,2018 | 4 months |
+| **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,2017 | 4 months |
+| **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,2017 | 4 months |
+| **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | May,2017 | 2 years |

@@ -6,7 +6,9 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 
 # Contact Information
 
-| [Resume](./stuff/shubham_bishnoi.pdf) | [<img src="./stuff/linkedin.png" width="25"/>](./stuff/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | [<img src="./stuff/email.png" width="25"/>](./stuff/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) | [<img src="./stuff/phone.png" width="25"/>](./stuff/phone.png) | 519-781-5497 |
+| [\*\*Resume](./stuff/shubham_bishnoi.pdf) | [<img src="./stuff/linkedin.png" width="25"/>](./stuff/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | [<img src="./stuff/email.png" width="25"/>](./stuff/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) | [<img src="./stuff/phone.png" width="25"/>](./stuff/phone.png) | 519-781-5497 |
+
+\*\* This resume is not updated with my current job.
 
 # Projects
 
@@ -22,6 +24,7 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 
 | Title | Company | Location | Start | Duration |
 | :---: | :---: | :---: | :---: | :---: |
+| **Data Analyst** | *Brookfield Asset Management* |  Toronto, Ontario | Oct,2020 | Current |
 | **Data Scientist** | *Pinpoint* |  Austin, Texas | Sep,2019 | 7 months |
 | **Data Analyst** | *Jana Solutions* |  Aurora, Ontario | Jan,2019 | 4 months |
 | **Math Tutor** | *Humber College* |  Etobicoke, Ontario | May,2018 | 4 months |

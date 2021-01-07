@@ -24,7 +24,7 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 | Title | Company | Location | Start | End |
 | :---: | :---: | :---: | :---: | :---: |
 | **Business Insights & Analytics Associate** | *TD Canada Trust* |  Toronto, Ontario | Feb,21 | Current |
-| **Data Analyst** | *Brookfield Asset Management* |  Toronto, Ontario | Oct,20 | Jan,21 |
+| **Data Analyst (Contract)** | *Brookfield Asset Management* |  Toronto, Ontario | Oct,20 | Jan,21 |
 
 # Co-op Work Experience
 

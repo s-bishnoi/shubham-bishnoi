@@ -21,13 +21,13 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 
 # Work Experience
 
-| Title | Company | Location | Start | Duration |
-| :---: | :---: | :---: | :---: | :---: |
-| **Business Insights & Analytics Associate** | *TD Canada Trust* |  Toronto, Ontario | Feb,2021 | Current |
-| **Data Analyst** | *Brookfield Asset Management* |  Toronto, Ontario | Oct,2020 | 4 months |
-| **Data Scientist** | *Pinpoint* |  Austin, Texas | Sep,2019 | 7 months |
-| **Data Analyst** | *Jana Solutions* |  Aurora, Ontario | Jan,2019 | 4 months |
-| **Math Tutor** | *Humber College* |  Etobicoke, Ontario | May,2018 | 4 months |
-| **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,2017 | 4 months |
-| **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,2017 | 4 months |
-| **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | May,2017 | 2 years |
+| Title | Company | Location | Start | End | Type |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **Business Insights & Analytics Associate** | *TD Canada Trust* |  Toronto, Ontario | Feb,2021 | Current | Permanent Full-time |
+| **Data Analyst** | *Brookfield Asset Management* |  Toronto, Ontario | Oct,2020 | Jan,2021 | Contract Full-time |
+| **Data Scientist** | *Pinpoint* |  Austin, Texas | Sep,2019 | Mar,2020 | Co-op |
+| **Data Analyst** | *Jana Solutions* |  Aurora, Ontario | Jan,2019 | Apr,2019 | Co-op |
+| **Math Tutor** | *Humber College* |  Etobicoke, Ontario | May,2018 | Aug,2018 | Co-op |
+| **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,2017 | Dec,2017 | Co-op |
+| **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,2017 | Apr,2017 | Co-op |
+| **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | May,2017 | Aug,2020 | Contract Part-time |

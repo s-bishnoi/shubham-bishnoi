@@ -19,15 +19,30 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 | **Data Visualization** | This project is on visualizing Canada provinces' COVID-19 data in a form of running bar graph |  *Pandas, Numpy and Matplotlib libraries in Jupyter* | [Link](./projects/DataVisualization) |
 
 
-# Work Experience
+# Full Time Work Experience
 
-| Title | Company | Location | Start | End | Type |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| **Business Insights & Analytics Associate** | *TD Canada Trust* |  Toronto, Ontario | Feb,2021 | Current | Permanent Full-time |
-| **Data Analyst** | *Brookfield Asset Management* |  Toronto, Ontario | Oct,2020 | Jan,2021 | Contract Full-time |
-| **Data Scientist** | *Pinpoint* |  Austin, Texas | Sep,2019 | Mar,2020 | Co-op |
-| **Data Analyst** | *Jana Solutions* |  Aurora, Ontario | Jan,2019 | Apr,2019 | Co-op |
-| **Math Tutor** | *Humber College* |  Etobicoke, Ontario | May,2018 | Aug,2018 | Co-op |
-| **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,2017 | Dec,2017 | Co-op |
-| **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,2017 | Apr,2017 | Co-op |
-| **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | May,2017 | Aug,2020 | Contract Part-time |
+| Title | Company | Location | Start | End |
+| :---: | :---: | :---: | :---: | :---: |
+| **Business Insights & Analytics Associate** | *TD Canada Trust* |  Toronto, Ontario | Feb,21 | Current |
+| **Data Analyst** | *Brookfield Asset Management* |  Toronto, Ontario | Oct,20 | Jan,21 |
+
+# Co-op Work Experience
+
+| Title | Company | Location | Start | End |
+| :---: | :---: | :---: | :---: | :---: |
+| **Data Scientist** | *Pinpoint* |  Austin, Texas | Sep,19 | Dec,19 |
+| **Data Analyst** | *Jana Solutions* |  Aurora, Ontario | Jan,19 | Apr,2019 |
+| **Math Tutor** | *Humber College* |  Etobicoke, Ontario | May,18 | Aug,18 |
+| **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,17 | Dec,17 |
+| **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,17 | Apr,17 |
+
+# Part Time Work Experience
+
+| Title | Company | Location | Start | End |
+| :---: | :---: | :---: | :---: | :---: |
+| **Data Scientist** | *Pinpoint* |  Austin, Texas | Jan,20 | Mar,20 |
+| **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | Jan,20 | Aug,20 |
+| **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | May,19 | Aug,19 |
+| **Front Desk Trainer** | *UW Desk Services* | Waterloo, Ontario | Sep,18 | Dec,18 |
+| **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | Jan,18 | Apr,18 |
+| **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | May,17 | Aug,17 |

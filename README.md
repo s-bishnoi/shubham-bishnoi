@@ -23,7 +23,7 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 
 | Title | Company | Location | Start | Duration |
 | :---: | :---: | :---: | :---: | :---: |
-| **Business Insights \& Analytics Associate** | *TD Canada Trust* |  Toronto, Ontario | Feb,2021 | Current |
+| **Business Insights & Analytics Associate** | *TD Canada Trust* |  Toronto, Ontario | Feb,2021 | Current |
 | **Data Analyst** | *Brookfield Asset Management* |  Toronto, Ontario | Oct,2020 | 4 months |
 | **Data Scientist** | *Pinpoint* |  Austin, Texas | Sep,2019 | 7 months |
 | **Data Analyst** | *Jana Solutions* |  Aurora, Ontario | Jan,2019 | 4 months |

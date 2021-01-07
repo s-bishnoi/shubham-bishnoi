@@ -19,7 +19,7 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 | **Data Visualization** | This project is on visualizing Canada provinces' COVID-19 data in a form of running bar graph |  *Pandas, Numpy and Matplotlib libraries in Jupyter* | [Link](./projects/DataVisualization) |
 
 
-# Full Time Work Experience
+# Full-time Work Experience
 
 | Title | Company | Location | Start | End |
 | :---: | :---: | :---: | :---: | :---: |
@@ -36,7 +36,7 @@ Hello! My name is Shubham Bishnoi. I just completed my Statistics Honours degree
 | **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,17 | Dec,17 |
 | **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,17 | Apr,17 |
 
-# Part Time Work Experience
+# Part-time Work Experience
 
 | Title | Company | Location | Start | End |
 | :---: | :---: | :---: | :---: | :---: |

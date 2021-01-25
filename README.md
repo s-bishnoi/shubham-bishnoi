@@ -31,7 +31,7 @@ Hello! My name is Shubham Bishnoi. I'm an undergraduate from University of Water
 | Title | Company | Location | Start | End |
 | :---: | :---: | :---: | :---: | :---: |
 | **Data Scientist** | *Pinpoint* |  Austin, Texas | Sep,19 | Dec,19 |
-| **Data Analyst** | *Jana Solutions* |  Aurora, Ontario | Jan,19 | Apr,2019 |
+| **Data Analyst** | *Jana Solutions* |  Aurora, Ontario | Jan,19 | Apr,19 |
 | **Math Tutor** | *Humber College* |  Etobicoke, Ontario | May,18 | Aug,18 |
 | **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,17 | Dec,17 |
 | **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,17 | Apr,17 |

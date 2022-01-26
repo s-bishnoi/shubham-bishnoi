@@ -23,7 +23,8 @@ Hello! My name is Shubham Bishnoi. I'm an undergraduate from University of Water
 
 | Title | Company | Location | Start | End |
 | :---: | :---: | :---: | :---: | :---: |
-| **Business Insights & Analytics Associate, Corporate Data & Analytics** | *TD Canada Trust* |  Toronto, Ontario | Feb,21 | Current |
+| **Data Engineer** | *TD Canada Trust* |  Toronto, Ontario | Feb,22 | Current |
+| **Business Insights & Analytics Associate** | *TD Canada Trust* |  Toronto, Ontario | Feb,21 | Jan,22 |
 | **Data Analyst (Contract)** | *Brookfield Asset Management* |  Toronto, Ontario | Oct,20 | Jan,21 |
 
 # Co-op Work Experience

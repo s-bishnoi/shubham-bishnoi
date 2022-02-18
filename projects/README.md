@@ -11,7 +11,7 @@
 -------------------------------------
 
 ## Solution finding
-[<img src="./nfl/punt.png" width="400"/>](.nfl/punt.png)
+[<img src="./nfl/punt.png" width="400"/>](./nfl/Case_Study_NFL_Shubham_Bishnoi.html)
 ### R (dplyr, DBI, ggplot2, plotly, gapminder), Python (Spark), and SQLite
 
 [Link](./nfl/Case_Study_NFL_Shubham_Bishnoi.html) This project is to propose specific rule modifications (e.g. changes to the initial formation, tackling techniques, blocking rules etc.), supported by data, that may reduce the occurrence of concussions during punt plays in NFL.
@@ -19,7 +19,7 @@
 -------------------------------------
 
 ## Prediction Model
-[<img src="./PredictionClassificationModels/happy.png" width="400"/>](./PredictionClassificationModels/happy.png)
+[<img src="./PredictionClassificationModels/happy.png" width="400"/>](./PredictionClassificationModels)
 ### Feature Engineering, Generalized Linear Model, Random Forest Model, Deep Learning Model and Stacking in R using h2o library
 
 [Link](./PredictionClassificationModels) This project is on creating a prediction model for happiness of people based on attributes given. The achieved accuracy was 80.81%.

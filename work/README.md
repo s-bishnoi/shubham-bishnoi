@@ -1,6 +1,6 @@
 [< Back to the portfolio](https://s-bishnoi.github.io/shubham-bishnoi/)
 
-# Full-time Work Experience
+## Full-time Work Experience
 
 | Title | Company | Location | Start | End |
 | :---: | :---: | :---: | :---: | :---: |
@@ -8,7 +8,7 @@
 | **Business Insights & Analytics Associate (1-Year Program)** | *TD Canada Trust* |  Toronto, Ontario | Feb,21 | Jan,22 |
 | **Data Analyst (Contract)** | *Brookfield Asset Management* |  Toronto, Ontario | Oct,20 | Jan,21 |
 
-# Co-op Work Experience
+## Co-op Work Experience
 
 | Title | Company | Location | Start | End |
 | :---: | :---: | :---: | :---: | :---: |
@@ -18,7 +18,7 @@
 | **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,17 | Dec,17 |
 | **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,17 | Apr,17 |
 
-# Part-time Work Experience
+## Part-time Work Experience
 
 | Title | Company | Location | Start | End |
 | :---: | :---: | :---: | :---: | :---: |

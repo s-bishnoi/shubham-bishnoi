@@ -1,14 +1,30 @@
 [< Back to the portfolio](https://s-bishnoi.github.io/shubham-bishnoi/)
 
-### Work Experience
+# Full-time Work Experience
 
-| Title | Company | Location | Type | Start | End |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| **Data Engineer** | *TD Canada Trust* |  Toronto, Ontario | Full-time | Feb,21 | Now |
-| **Data Analyst** | *Brookfield Asset Management* |  Toronto, Ontario | Contract | Oct,20 | Jan,21 |
-| **Data Scientist** | *Pinpoint* |  Austin, Texas | Co-op | Sep,19 | Dec,19 |
-| **Data Analyst** | *Jana Solutions* |  Aurora, Ontario | Co-op |  Jan,19 | Apr,19 |
-| **Math Tutor** | *Humber College* |  Etobicoke, Ontario | Co-op |  May,18 | Aug,18 |
-| **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Co-op |  Sep,17 | Dec,17 |
-| **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Co-op |  Jan,17 | Apr,17 |
-| **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | Part-time | May,17 | Aug,20 |
+| Title | Company | Location | Start | End |
+| :---: | :---: | :---: | :---: | :---: |
+| **Data Engineer** | *TD Canada Trust* |  Toronto, Ontario | Feb,22 | Current |
+| **Business Insights & Analytics Associate (1-Year Program)** | *TD Canada Trust* |  Toronto, Ontario | Feb,21 | Jan,22 |
+| **Data Analyst (Contract)** | *Brookfield Asset Management* |  Toronto, Ontario | Oct,20 | Jan,21 |
+
+# Co-op Work Experience
+
+| Title | Company | Location | Start | End |
+| :---: | :---: | :---: | :---: | :---: |
+| **Data Scientist** | *Pinpoint* |  Austin, Texas | Sep,19 | Dec,19 |
+| **Data Analyst** | *Jana Solutions* |  Aurora, Ontario | Jan,19 | Apr,19 |
+| **Math Tutor** | *Humber College* |  Etobicoke, Ontario | May,18 | Aug,18 |
+| **Teacher Intern** | *Bronte College* |  Missisauga, Ontario | Sep,17 | Dec,17 |
+| **Math Resource Assistant** | *Mohawk College* |  Hamilton, Ontario | Jan,17 | Apr,17 |
+
+# Part-time Work Experience
+
+| Title | Company | Location | Start | End |
+| :---: | :---: | :---: | :---: | :---: |
+| **Data Scientist** | *Pinpoint* |  Austin, Texas | Jan,20 | Mar,20 |
+| **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | Jan,20 | Aug,20 |
+| **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | May,19 | Aug,19 |
+| **Front Desk Trainer** | *UW Desk Services* | Waterloo, Ontario | Sep,18 | Dec,18 |
+| **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | Jan,18 | Apr,18 |
+| **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | May,17 | Aug,17 |

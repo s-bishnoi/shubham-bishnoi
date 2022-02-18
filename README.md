@@ -6,17 +6,18 @@ A few things that interest me are A/B/n Testing, Data Visualization, and Automat
 
 Fun fact: I love collecting lapel pins, ask me about my collection.
 
+| :---: | :---: |
 | [<img src="./stuff/linkedin.png" width="25"/>](./stuff/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | [<img src="./stuff/email.png" width="25"/>](./stuff/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) | 
 
 
 # Projects
 
-| Name | Skills | Link |
-| :---: | :---: | :---: | :---: |
-| **Experimental Design** |  *A/B Testing and Hypothesis testing in R* | [Link](./projects/ExperimentalDesign/) |
-| **Database Design** |  *Entity Relation Diagram, Relational model and SQL queries in SQLite* | [Link](./projects/DatabaseDesign/) |
-| **Prediction Model** |  *Feature Engineering, Generalized Linear Model, Random Forest Model, Deep Learning Model and Stacking in R using h2o library* | [Link](./projects/PredictionClassificationModels) |
-| **Data Visualization** |  *Pandas, Numpy and Matplotlib libraries in Jupyter* | [Link](./projects/DataVisualization) |
+| Name | Skills | 
+| :---: | :---: | 
+| [Experimental Design](./projects/ExperimentalDesign/) |  *A/B Testing and Hypothesis testing in R* | 
+| [Database Design](./projects/DatabaseDesign/) |  *Entity Relation Diagram, Relational model and SQL queries in SQLite* | 
+| [Prediction Model](./projects/PredictionClassificationModels) |  *Feature Engineering, Generalized Linear Model, Random Forest Model, Deep Learning Model and Stacking in R using h2o library* | 
+| [Data Visualization](./projects/DataVisualization)  |  *Pandas, Numpy and Matplotlib libraries in Jupyter* | 
 
 
 # Full-time Work Experience

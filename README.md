@@ -6,9 +6,9 @@ A few things that interest me are **A/B/n Testing, Data Visualization, and Autom
 
 Fun fact: I love collecting lapel pins, ask me about my collection.
 
-# Contact Information
+[Resume](./stuff/shubham_bishnoi.pdf) 
 
-| [Resume](./stuff/shubham_bishnoi.pdf) | [<img src="./stuff/linkedin.png" width="25"/>](./stuff/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | [<img src="./stuff/email.png" width="25"/>](./stuff/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) | [<img src="./stuff/phone.png" width="25"/>](./stuff/phone.png) | 519-781-5497 |
+[<img src="./stuff/linkedin.png" width="50"/>](./stuff/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | 
 
 
 # Projects

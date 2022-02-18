@@ -1,8 +1,10 @@
-# About me
+# Shubham Bishnoi
 
 [<img src="./stuff/photo.png" width="150"/>](./stuff/photo.png) 
 
-Hello! My name is Shubham Bishnoi. I'm an undergraduate from University of Waterloo with Statistics Honours degree and a Computer Science minor, class of 2020. Few things that interest me are data visualization, A/B testing and working with databases. I aspire to teach Data Science and Ethics in the future. Few of my hobbies are painting, dancing and collecting lapel pins.
+I'm an alumni from the University of Waterloo with a Statistics Honours degree and a Computer Science minor. 
+
+A few things that interest me are data visualization, A/B testing and working with databases. I aspire to teach Data Science and Ethics in the future. Few of my hobbies are painting, dancing and collecting lapel pins.
 
 # Contact Information
 

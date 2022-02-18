@@ -6,6 +6,7 @@ A few things that interest me are A/B/n Testing, Data Visualization, and Automat
 
 Fun fact: I love collecting lapel pins, ask me about my collection.
 
+| | |
 | :---: | :---: |
 | [<img src="./stuff/linkedin.png" width="25"/>](./stuff/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | [<img src="./stuff/email.png" width="25"/>](./stuff/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) | 
 

@@ -11,7 +11,7 @@ Fun fact: I love collecting lapel pins, ask me about my collection.
 | [<img src="./stuff/linkedin.png" width="25"/>](./stuff/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | [<img src="./stuff/email.png" width="25"/>](./stuff/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) | 
 
 
-| Projects |
+### Projects
 | :---: | :---: | :---: | :---: | 
 | [Experimental Design](./projects/ExperimentalDesign/) | [Database Design](./projects/DatabaseDesign/) | [Prediction Model](./projects/PredictionClassificationModels) | [Data Visualization](./projects/DataVisualization)  | 
 | *A/B Testing and Hypothesis testing in R* | *Entity Relation Diagram, Relational model and SQL queries in SQLite* | *Feature Engineering, Generalized Linear Model, Random Forest Model, Deep Learning Model and Stacking in R using h2o library* | *Pandas, Numpy and Matplotlib libraries in Jupyter* | 

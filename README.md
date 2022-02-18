@@ -1,5 +1,4 @@
-# Shubham Bishnoi
-## Data Scientist / Data Engineer / Statistician 
+# Data Scientist / Data Engineer / Statistician 
 
 I'm an alumni from the University of Waterloo with a Statistics Honours degree and a Computer Science minor. Through my university degree I had the opprotunity to work with various companies in my co-operative education. For past year I have been working as a Data Engineer with the Business Intelligence and Reporting team in TD Bank.
 

@@ -16,7 +16,7 @@ A running graph for COVID-19 total number of cases in provinces of Canada from 2
 
 ### The visualization looks something like this
 
-<iframe src='//gifs.com/embed/the-spread-of-covid-19-across-the-canada-in-a-running-bar-graph-JyBw1J' frameborder='0' scrolling='no' width='900px' height='600px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+<iframe src='//gifs.com/embed/the-spread-of-covid-19-across-the-canada-in-a-running-bar-graph-JyBw1J' frameborder='0' scrolling='no' width='600px' height='400px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
 
 ### Some useful libraries
 

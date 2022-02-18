@@ -3,7 +3,7 @@
 [Go to the work >](https://s-bishnoi.github.io/shubham-bishnoi/work/)
 
 ## Experimental Design
-[<img src="./ExperimentalDesign/netflix.png" width="400"/>](ExperimentalDesign/netflix.png)
+[<img src="./ExperimentalDesign/netflix.png" width="400"/>](./ExperimentalDesign/)
 ### A/B Testing and Hypothesis testing in R
 
 [Link](./ExperimentalDesign/) The project is on experimenting with different features of the online streaming service to reduce the average browsing time.

@@ -20,6 +20,6 @@
 
 ## Prediction Model 
 [<img src="./PredictionClassificationModels/happy.png" width="400"/>](./PredictionClassificationModels)
-### Feature Engineering, Generalized Linear Model, Random Forest Model, Deep Learning Model and Stacking in R using h2o library [<img src="./nfl/punt.png" width="25"/>](./PredictionClassificationModels)
+### Feature Engineering, Generalized Linear Model, Random Forest Model, Deep Learning Model and Stacking in R using h2o library [<img src="./nfl/click.png" width="20"/>](./PredictionClassificationModels)
 
 [Link](./PredictionClassificationModels) This project is on creating a prediction model for happiness of people based on attributes given. The achieved accuracy was 80.81%.

@@ -14,9 +14,7 @@
 [<img src="./nfl/punt.png" width="400"/>](.nfl/punt.png)
 ### R (dplyr, DBI, ggplot2, plotly, gapminder), Python (Spark), and SQLite
 
-[Kaggle Competition Link](https://www.kaggle.com/c/NFL-Punt-Analytics-Competition/data)
-
-Getting edited to be displayed
+[Link](./nfl/Case_Study_NFL_Shubham_Bishnoi.html) This project is to propose specific rule modifications (e.g. changes to the initial formation, tackling techniques, blocking rules etc.), supported by data, that may reduce the occurrence of concussions during punt plays in NFL.
 
 -------------------------------------
 

@@ -6,7 +6,7 @@
 [Link](./projects/ExperimentalDesign/) The project is on experimenting with different features of the online streaming service to reduce the average browsing time.
 
 ## Database Design
-### Entity Relation Diagram, Relational model and SQL queries in SQLite*
+### Entity Relation Diagram, Relational model and SQL queries in SQLite
 
 [Link](./projects/DatabaseDesign/) This project is on creating a database that could be used by people to do basic and advanced SQL queries. The database is in 3rd Normal form and most of the data is original (created manually).
 

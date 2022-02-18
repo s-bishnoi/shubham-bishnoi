@@ -2,9 +2,11 @@
 
 [<img src="./stuff/photo.png" width="150"/>](./stuff/photo.png) 
 
-I'm an alumni from the University of Waterloo with a Statistics Honours degree and a Computer Science minor. 
+I'm an alumni from the University of Waterloo with a Statistics Honours degree and a Computer Science minor. Through my university degree I had the opprotunity to work with various companies in my co-operative education. For past year I have been working as a Data Engineer with the Business Intelligence and Reporting team in TD Bank.
 
-A few things that interest me are data visualization, A/B testing and working with databases. I aspire to teach Data Science and Ethics in the future. Few of my hobbies are painting, dancing and collecting lapel pins.
+A few things that interest me are **A/B/n Testing, Data Visualization, and Automating Data Flows**. I have always loved teaching and my goal in life is to be a Data Science professor. 
+
+Fun fact: I love collecting lapel pins, ask me about my collection.
 
 # Contact Information
 

@@ -6,14 +6,13 @@ A few things that interest me are A/B/n Testing, Data Visualization, and Automat
 
 Fun fact: I love collecting lapel pins, ask me about my collection.
 
-[Resume](./stuff/shubham_bishnoi.pdf) 
+| [<img src="./stuff/linkedin.png" width="30"/>](./stuff/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | [<img src="./stuff/email.png" width="30"/>](./stuff/email.png) | [shubishnoi@gmail.com](mailto:shubishnoi@gmail.com) | [<img src="./stuff/phone.png" width="30"/>](./stuff/phone.png) | 519-781-5497 |
 
-[<img src="./stuff/linkedin.png" width="50"/>](./stuff/linkedin.png) | [shubhambishnoi](https://www.linkedin.com/in/shubhambishnoi/) | 
 
 
 # Projects
 
-| Name | Description | Skills | Link |
+| Name | Skills | Link |
 | :---: | :---: | :---: | :---: |
 | **Experimental Design** |  *A/B Testing and Hypothesis testing in R* | [Link](./projects/ExperimentalDesign/) |
 | **Database Design** |  *Entity Relation Diagram, Relational model and SQL queries in SQLite* | [Link](./projects/DatabaseDesign/) |

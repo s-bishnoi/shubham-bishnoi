@@ -3,7 +3,8 @@
 | | |
 | :---: | :---: | 
 | [<img src="./stuff/project.png" width="25"/>](./stuff/project.png) | [Projects](./projects/) | 
-| [<img src="./stuff/work.png" width="25"/>](./stuff/work.png) | [Work](./work/) |
+| [<img src="./stuff/work.png" width="25"/>](./stuff/work.png) | [Work](./work/) | 
+| [<img src="./stuff/resume.png" width="25"/>](./stuff/resume.png) | [Resume](./stuff/shubham_bishnoi.pdf) | 
 
 
 I'm an alumni from the University of Waterloo with a Statistics Honours degree and a Computer Science minor. Through my university degree I had the opprotunity to work with various companies in my co-operative education. For past year I have been working as a Data Engineer with the Business Intelligence and Reporting team in TD Bank.

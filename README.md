@@ -12,6 +12,7 @@ Fun fact: I love collecting lapel pins, ask me about my collection.
 
 
 ### Projects
+| | | | |
 | :---: | :---: | :---: | :---: | 
 | [Experimental Design](./projects/ExperimentalDesign/) | [Database Design](./projects/DatabaseDesign/) | [Prediction Model](./projects/PredictionClassificationModels) | [Data Visualization](./projects/DataVisualization)  | 
 | *A/B Testing and Hypothesis testing in R* | *Entity Relation Diagram, Relational model and SQL queries in SQLite* | *Feature Engineering, Generalized Linear Model, Random Forest Model, Deep Learning Model and Stacking in R using h2o library* | *Pandas, Numpy and Matplotlib libraries in Jupyter* | 

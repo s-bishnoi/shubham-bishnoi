@@ -12,6 +12,7 @@ Fun fact: I love collecting lapel pins, ask me about my collection.
 
 
 ### Projects
+
 | | | | |
 | :---: | :---: | :---: | :---: | 
 | [Experimental Design](./projects/ExperimentalDesign/) | [Database Design](./projects/DatabaseDesign/) | [Prediction Model](./projects/PredictionClassificationModels) | [Data Visualization](./projects/DataVisualization)  | 

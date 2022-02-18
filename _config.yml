@@ -2,5 +2,4 @@ theme: jekyll-theme-minimal
 
 title: [Shubham Bishnoi]
 logo: /stuff/photo.png
-description: [A short description of your site's purpose]
-Resume: /stuff/shubham_bishnoi.pdf
+description: [Resume](./stuff/shubham_bishnoi.pdf)

@@ -24,6 +24,7 @@
 
 | Title | Company | Location | Start | End |
 | :---: | :---: | :---: | :---: | :---: |
+| **Data Analytics Mentor** | *JUNO College* |  Toronto, Ontario | Nov,21 | Current |
 | **Data Scientist** | *Pinpoint* |  Austin, Texas | Jan,20 | Mar,20 |
 | **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | Jan,20 | Aug,20 |
 | **Front Desk Assistant** | *UW Desk Services* | Waterloo, Ontario | May,19 | Aug,19 |

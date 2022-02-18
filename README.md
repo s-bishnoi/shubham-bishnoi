@@ -2,7 +2,7 @@
 
 I'm an alumni from the University of Waterloo with a Statistics Honours degree and a Computer Science minor. Through my university degree I had the opprotunity to work with various companies in my co-operative education. For past year I have been working as a Data Engineer with the Business Intelligence and Reporting team in TD Bank.
 
-A few things that interest me are **A/B/n Testing, Data Visualization, and Automating Data Flows**. I have always loved teaching and my goal in life is to be a Data Science professor. 
+A few things that interest me are A/B/n Testing, Data Visualization, and Automating Data Flows. I have always loved teaching and my goal in life is to be a Data Science professor. 
 
 Fun fact: I love collecting lapel pins, ask me about my collection.
 
@@ -15,10 +15,10 @@ Fun fact: I love collecting lapel pins, ask me about my collection.
 
 | Name | Description | Skills | Link |
 | :---: | :---: | :---: | :---: |
-| **Experimental Design** | The project is on experimenting with different features of the online streaming service to reduce the average browsing time. |  *A/B Testing and Hypothesis testing in R* | [Link](./projects/ExperimentalDesign/) |
-| **Database Design** | This project is on creating a database that could be used by people to do basic and advanced SQL queries. The database is in 3rd Normal form and most of the data is original (created manually). |  *Entity Relation Diagram, Relational model and SQL queries in SQLite* | [Link](./projects/DatabaseDesign/) |
-| **Prediction Model** | This project is on creating a prediction model for happiness of people based on attributes given. The achieved accuracy was 80.81%. |  *Feature Engineering, Generalized Linear Model, Random Forest Model, Deep Learning Model and Stacking in R using h2o library* | [Link](./projects/PredictionClassificationModels) |
-| **Data Visualization** | This project is on visualizing Canada provinces' COVID-19 data in a form of running bar graph |  *Pandas, Numpy and Matplotlib libraries in Jupyter* | [Link](./projects/DataVisualization) |
+| **Experimental Design** |  *A/B Testing and Hypothesis testing in R* | [Link](./projects/ExperimentalDesign/) |
+| **Database Design** |  *Entity Relation Diagram, Relational model and SQL queries in SQLite* | [Link](./projects/DatabaseDesign/) |
+| **Prediction Model** |  *Feature Engineering, Generalized Linear Model, Random Forest Model, Deep Learning Model and Stacking in R using h2o library* | [Link](./projects/PredictionClassificationModels) |
+| **Data Visualization** |  *Pandas, Numpy and Matplotlib libraries in Jupyter* | [Link](./projects/DataVisualization) |
 
 
 # Full-time Work Experience

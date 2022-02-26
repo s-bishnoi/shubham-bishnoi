@@ -7,7 +7,7 @@
 
 [<img src="./ExperimentalDesign/netflix.png" width="400"/>](./ExperimentalDesign/)
 
-[Link](./ExperimentalDesign/) The project is on experimenting with different features of the online streaming service to reduce the average browsing time.
+[Link](./ExperimentalDesign/) This project experiments with different features of an online streaming service to reduce the average browsing time.
 
 -------------------------------------
 
@@ -16,7 +16,7 @@
 
 [<img src="./nfl/punt.png" width="400"/>](./nfl/Case_Study_NFL_Shubham_Bishnoi.html)
 
-[Link](./nfl/Case_Study_NFL_Shubham_Bishnoi.html) This project is to propose specific rule modifications (e.g. changes to the initial formation, tackling techniques, blocking rules etc.), supported by data, that may reduce the occurrence of concussions during punt plays in NFL.
+[Link](./nfl/Case_Study_NFL_Shubham_Bishnoi.html) This project proposes specific rule modifications (e.g. changes to the initial formation, tackling techniques, blocking rules etc.), supported by data, that may reduce the occurrence of concussions during punt plays in NFL.
 
 -------------------------------------
 
@@ -25,4 +25,4 @@
 
 [<img src="./PredictionClassificationModels/happy.png" width="400"/>](./PredictionClassificationModels)
 
-[Link](./PredictionClassificationModels) This project is on creating a prediction model for happiness of people based on attributes given. The achieved accuracy was 80.81%.
+[Link](./PredictionClassificationModels) This project creates a prediction model for happiness of people based on given attributes. The achieved accuracy was 80.81%.

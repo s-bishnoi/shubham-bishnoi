@@ -15,7 +15,6 @@ Thriving career in Corporate Data & analytics team in TD Bank by exceeding the e
 Interests include Experimental Design (A/B testing), Data Visualization, and Teaching.
 
 
-| | |
-| :---: | :---: | 
-| [<img src="./stuff/project.png" width="25"/>](./stuff/project.png) | [Projects](./projects/) | 
-| [<img src="./stuff/work.png" width="25"/>](./stuff/work.png) | [Work](./work/) | 
+| | | |
+| :---: | :---: | :---: | 
+| [<img src="./stuff/project.png" width="25"/>](./stuff/project.png) | [Projects](./projects/) | [<img src="./stuff/work.png" width="25"/>](./stuff/work.png) | [Work](./work/) | 

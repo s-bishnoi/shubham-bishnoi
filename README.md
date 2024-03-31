@@ -6,9 +6,9 @@
 | [<img src="./stuff/work.png" width="25"/>](./stuff/work.png) | [Work](./work/) | 
 
 
-I'm an alumni from the University of Waterloo with a Statistics Honours degree and a Computer Science minor. Throughout my university degree, I had the opportunity to work with various companies in my co-operative education. For the two years I have been working as a Data Scientist in Corporate Data & Analytics at TD Bank.
+I'm an alumni from the University of Waterloo with a Statistics Honours degree and a Computer Science minor. Throughout my university degree, I had the opportunity to work with various companies in my co-operative education. I have been working in Data Science team in Corporate Data & Analytics at TD Bank since 2021.
 
-Some of my interests include A/B/n Testing, Data Visualization, and Automating Data Flows. I have always loved teaching and my goal in life is to be a Data Science professor. 
+Some of my interests include A/B/n Testing and Data Visualization. I have always loved teaching and my goal in life is to teach. 
 
 Fun fact: I love collecting lapel pins, ask me about my collection.
 

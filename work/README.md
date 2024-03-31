@@ -1,6 +1,4 @@
-[< Back to the portfolio](https://s-bishnoi.github.io/shubham-bishnoi/)
-
-[Go to the projects >](https://s-bishnoi.github.io/shubham-bishnoi/projects/)
+[< Back to overview](https://s-bishnoi.github.io/shubham-bishnoi/)
 
 ## Full-time Work Experience
 

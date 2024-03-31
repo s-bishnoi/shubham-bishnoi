@@ -1,7 +1,8 @@
 [< Back to Overview](https://s-bishnoi.github.io/shubham-bishnoi/)
 
 
-### Project: Experimental Design
+## Project: Experimental Design
+#### Click on picture below for Details
 
 [<img src="./ExperimentalDesign/netflix.png" width="400"/>](./ExperimentalDesign/)
 
@@ -11,7 +12,8 @@
 
 -------------------------------------
 
-### Project: Solution finding
+## Project: Solution finding
+#### Click on picture below for Details
 
 [<img src="./nfl/punt.png" width="400"/>](./nfl/Case_Study_NFL_Shubham_Bishnoi.html)
 
@@ -21,7 +23,8 @@
 
 -------------------------------------
 
-### Project: Prediction Model 
+## Project: Prediction Model 
+#### Click on picture below for Details
 
 [<img src="./PredictionClassificationModels/happy.png" width="400"/>](./PredictionClassificationModels)
 

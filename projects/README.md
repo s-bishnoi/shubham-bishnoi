@@ -2,7 +2,7 @@
 
 
 ## Project: Experimental Design
-#### Click on picture below for Details
+#### Click on picture below for details
 
 [<img src="./ExperimentalDesign/netflix.png" width="400"/>](./ExperimentalDesign/)
 
@@ -13,7 +13,7 @@
 -------------------------------------
 
 ## Project: Solution finding
-#### Click on picture below for Details
+#### Click on picture below for details
 
 [<img src="./nfl/punt.png" width="400"/>](./nfl/Case_Study_NFL_Shubham_Bishnoi.html)
 
@@ -24,7 +24,7 @@
 -------------------------------------
 
 ## Project: Prediction Model 
-#### Click on picture below for Details
+#### Click on picture below for details
 
 [<img src="./PredictionClassificationModels/happy.png" width="400"/>](./PredictionClassificationModels)
 
@@ -32,12 +32,3 @@
 **Description:** This project creates a prediction model for happiness of people based on given attributes. The achieved accuracy was 80.81%.
 
 **Tools & Methods:** Feature Engineering, Generalized Linear Model, Random Forest Model, Deep Learning Model and Stacking in R using h2o library
-
-
-
-
-
-[Link](./ExperimentalDesign/) 
-
-[Link](./nfl/Case_Study_NFL_Shubham_Bishnoi.html)
-[Link](./PredictionClassificationModels)

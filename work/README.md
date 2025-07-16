@@ -4,9 +4,9 @@
 
 | Title | Company | Location | Start | End |
 | :---: | :---: | :---: | :---: | :---: |
-| **Data Scientist II (Manager)** | *TD Canada Trust* |  Toronto, Ontario | Aug,23 | Current |
-| **Data Scientist I** | *TD Canada Trust* |  Toronto, Ontario | Aug,22 | Aug,23 |
-| **Business Intelligence and Reporting Analyst III** | *TD Canada Trust* |  Toronto, Ontario | Feb,22 | Aug,22 |
+| **Data Scientist III (Manager)** | *TD Canada Trust* |  Toronto, Ontario | Aug,23 | Current |
+| **Data Scientist II** | *TD Canada Trust* |  Toronto, Ontario | Aug,22 | Aug,23 |
+| **Data Scientist I** | *TD Canada Trust* |  Toronto, Ontario | Feb,22 | Aug,22 |
 | **Business Insights & Analytics Associate (1-Year Program)** | *TD Canada Trust* |  Toronto, Ontario | Feb,21 | Jan,22 |
 | **Data Analyst (Contract)** | *Brookfield Asset Management* |  Toronto, Ontario | Oct,20 | Jan,21 |
 
